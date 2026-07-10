@@ -3,10 +3,10 @@
 **IT Project Manager | AI-Driven Operations Strategist | Technical Project Coordinator | Startup & Service Platform Builder**
 
 📍 Bhopal, India
-📧 [your-email@domain.com]
-🔗 [LinkedIn Profile URL]
-🔗 [Portfolio Website URL]
-💻 [GitHub Profile URL]
+📧 vivekdvnath@gmail.com
+🔗 https://www.linkedin.com/in/vivek-debnath-4400321a4/
+🔗 https://vivek-portfolio-six-rust.vercel.app
+💻 https://github.com/Asccvivek
 
 ---
 
@@ -28,10 +28,10 @@ Vivek Debnath is a technology operations professional and project management str
 | Domain | Skills |
 |--------|--------|
 | Project Management | Agile Coordination, Sprint Planning, Milestone Tracking, Stakeholder Management |
-| Technical Operations | Dashboard Architecture, Workflow Automation, System Integration, API Coordination |
+| Technical Operations | Dashboard Architecture, Workflow Automation, System Integration |
 | AI & Automation | AI-Assisted Workflows, Prompt Engineering, Amazon Q, AI Productivity Systems |
 | Product Operations | Requirement Gathering, PRD Development, Feature Prioritization, Roadmap Planning |
-| Tools & Platforms | VS Code, GitHub, Project Management Tools, Reporting Dashboards, Analytics Platforms |
+| Tools & Platforms | Jira, Trello, GitHub, Project Management Tools, Reporting Dashboards, Analytics Platforms |
 
 ### Operations & Strategy
 | Domain | Skills |
@@ -46,7 +46,7 @@ Vivek Debnath is a technology operations professional and project management str
 ## PROFESSIONAL EXPERIENCE
 
 ### IT Project Manager & Operations Strategist
-**Independent / Multi-Platform Portfolio** | Bhopal, India
+**NexG** | Bhopal, India
 
 **Key Achievements:**
 - Orchestrated end-to-end product planning and operational coordination for 13+ digital platforms across diverse industry verticals
@@ -59,32 +59,6 @@ Vivek Debnath is a technology operations professional and project management str
 ---
 
 ## PROJECT PORTFOLIO
-
-### Electric Dada — Location-Based Electrical Service Marketplace
-**Role:** Product & Operations Lead | **Type:** Full-Stack Marketplace Platform
-
-- Architected multi-sided marketplace connecting electricians, electrical shops, and consumers through location-based discovery
-- Designed 3-tier dashboard system (Admin, Electrician, Shop Owner) with role-based access and operational workflows
-- Planned product comparison engine, delivery charge logic, and service booking coordination systems
-- Coordinated marketplace workflow architecture supporting real-time service provider availability and booking management
-- Integrated AI-assisted planning for workflow optimization and operational efficiency
-
-**Tech Ecosystem:** Marketplace Architecture, Multi-Dashboard Systems, Location Services, Delivery Logic, AI Workflow Planning
-
----
-
-### E-Restro — Restaurant Management & Operations Platform
-**Role:** Operations Coordinator & Systems Analyst | **Type:** SaaS Operations Platform
-
-- Coordinated development of comprehensive restaurant management system with inventory, analytics, and customer modules
-- Analyzed and structured reporting dashboards for real-time operational insights and performance tracking
-- Planned QR-based table management and KOT printing integration for seamless front-of-house operations
-- Designed ingredient management and inventory workflow systems for cost optimization
-- Established operational reporting frameworks for multi-location restaurant analytics
-
-**Tech Ecosystem:** Inventory Systems, QR Integration, KOT Printing, Analytics Dashboards, Reporting Frameworks
-
----
 
 ### Salonix — Online Salon Service Booking Platform
 **Role:** Product Coordinator | **Type:** Service Booking Platform
@@ -104,25 +78,22 @@ Vivek Debnath is a technology operations professional and project management str
 
 ---
 
-### Rural Ride Booking Platform — Local Transport Startup Concept
-**Role:** Startup Strategist & Product Planner | **Type:** Mobility Startup
-
-- Conceptualized rural transport ecosystem addressing underserved local mobility markets
-- Planned auto/tuk-tuk booking workflows with location-based matching and fare calculation systems
-- Designed scalable architecture for rural ride-sharing and local transport coordination
-
----
-
 ### Additional Platforms Coordinated:
 - **Unitygreet** — Digital greeting card business platform (Digital experience systems)
 - **1 Tom Plumber** — Plumbing service booking platform (Service coordination)
 - **Elite Works** — Electrical contractor operations platform (Contractor workflow systems)
 - **Synergy Tech** — Technology & business operations platform
-- **Tradewinds** — Business workflow & operations platform
-- **Tradefixa** — Trade/service management platform
-- **LegalMark** — Legal & business digital platform
-- **Electrical Service App** — Urban Company-style marketplace concept
 
+---
+
+### E-Restro — Restaurant Management & Operations Platform
+**Role:** Operations Coordinator & Systems Analyst | **Type:** SaaS Operations Platform
+
+- Coordinated development of comprehensive restaurant management system with inventory, analytics, and customer modules
+- Analyzed and structured reporting dashboards for real-time operational insights and performance tracking
+- Planned QR-based table management and KOT printing integration for seamless front-of-house operations
+- Designed ingredient management and inventory workflow systems for cost optimization
+- Established operational reporting frameworks for multi-location restaurant analytics
 ---
 
 ## TECHNICAL SKILLS
@@ -134,12 +105,12 @@ Vivek Debnath is a technology operations professional and project management str
 - AI-Driven Project Coordination
 - Intelligent Automation Concepts
 
-### Development & Tools
-- GitHub Workflow Management
-- VS Code Development Environment
-- Version Control & Collaboration
-- API Coordination & Integration Planning
+### Project Management & Tools
+- Agile & Scrum Methodologies
+- Jira, Trello & Asana (Task & Sprint Tracking)
+- GitHub Workflow Management (Version Control & Collaboration)
 - Dashboard & Reporting Tools
+- Confluence & Technical Documentation
 
 ### Marketplace & Platform Architecture
 - Multi-Vendor Marketplace Design
@@ -152,24 +123,18 @@ Vivek Debnath is a technology operations professional and project management str
 
 ## EDUCATION
 
-[Add your educational qualifications here]
-
----
-
-## CERTIFICATIONS & LEARNING
-
-[Add relevant certifications — suggested:
-- Google Project Management Certificate
-- AWS Cloud Practitioner
-- Scrum Master Certification
-- AI/ML Fundamentals]
+- **Graduation** — IGNOU
+- **12th Grade** — SEBA Board
+- **10th Grade** — SEBA Board
 
 ---
 
 ## LANGUAGES
 
-- English (Professional)
-- Hindi (Native)
+- English
+- Hindi
+- Bengali
+- Assamese
 
 ---
 
