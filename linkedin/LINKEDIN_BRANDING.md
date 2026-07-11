@@ -134,7 +134,7 @@ Share thoughts on marketplace trends, startup operations, or AI in project manag
 ## LINKEDIN EXPERIENCE SECTION FORMAT
 
 ### IT Project Manager & Operations Strategist
-**Multi-Platform Portfolio** | [Start Date] – Present
+**NexG** | Bhopal, India | [Start Date] – Present
 
 • Orchestrated product planning and operational coordination across 13+ digital platforms
 • Architected multi-stakeholder marketplace ecosystems with AI-assisted workflow integration
@@ -142,6 +142,7 @@ Share thoughts on marketplace trends, startup operations, or AI in project manag
 • Coordinated cross-functional requirements across technical, business, and UX domains
 
 **Key Platforms:** Electric Dada, E-Restro, Salonix, Homecare, Rural Ride, LegalMark, and 7+ others
+
 
 ---
 

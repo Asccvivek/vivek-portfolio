@@ -111,14 +111,49 @@ export const skills = [
     ],
   },
   {
-    category: "Technical Coordination",
+    category: "Project & Collaboration",
     level: "Advanced",
     items: [
-      "GitHub Workflows",
-      "VS Code",
-      "API Coordination",
-      "System Integration",
-      "Technical Documentation",
+      "GitHub",
+      "Google Workspace",
+      "Microsoft Office",
+      "Microsoft Excel",
+    ],
+  },
+  {
+    category: "Design & Review",
+    level: "Advanced",
+    items: [
+      "Figma",
+    ],
+  },
+  {
+    category: "Hosting & Deployment",
+    level: "Advanced",
+    items: [
+      "Hostinger",
+      "cPanel",
+      "Vercel",
+      "Netlify",
+    ],
+  },
+  {
+    category: "AI Productivity",
+    level: "Expert",
+    items: [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Codex",
+      "Amazon Q",
+    ],
+  },
+  {
+    category: "Testing & QA",
+    level: "Advanced",
+    items: [
+      "Browser Developer Tools",
+      "Cross-browser Testing",
     ],
   },
 ];

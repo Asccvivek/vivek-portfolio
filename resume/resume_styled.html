@@ -1,4 +1,40 @@
-# VIVEK DEBNATH
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Debnath - Resume</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+        body {
+            font-family: "Inter", sans-serif;
+            line-height: 1.5;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+            background: #fff;
+        }
+        h1 { font-size: 28px; margin-bottom: 5px; color: #111; letter-spacing: -0.5px; text-transform: uppercase; }
+        h2 { font-size: 16px; margin-top: 20px; padding-bottom: 5px; border-bottom: 1px solid #ddd; color: #222; text-transform: uppercase; letter-spacing: 1px; }
+        h3 { font-size: 14px; margin-top: 15px; margin-bottom: 5px; color: #444; }
+        p { margin-bottom: 10px; font-size: 12px; }
+        ul { margin-top: 5px; margin-bottom: 10px; padding-left: 20px; font-size: 12px; }
+        li { margin-bottom: 4px; }
+        a { color: #0056b3; text-decoration: none; }
+        hr { display: none; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 15px; font-size: 12px; }
+        th, td { border: 1px solid #eee; padding: 8px; text-align: left; }
+        th { background-color: #f9f9f9; font-weight: 600; }
+        strong { color: #222; }
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        const rawMd = `# VIVEK DEBNATH
 
 **IT Project Manager | AI-Driven Operations Strategist | Technical Project Coordinator | Startup & Service Platform Builder**
 
@@ -98,38 +134,26 @@ Vivek Debnath is a technology operations professional and project management str
 
 ## TECHNICAL SKILLS
 
-### Project Management
+### AI & Automation
+- AI-Assisted Workflow Planning & Execution
+- Amazon Q Developer Integration
+- Prompt Engineering for Productivity
+- AI-Driven Project Coordination
+- Intelligent Automation Concepts
+
+### Project Management & Tools
 - Agile & Scrum Methodologies
-- Sprint Planning & Milestone Tracking
-- Stakeholder Management
-- IT Delivery Management
-- Process Optimization & SOPs
+- Jira, Trello & Asana (Task & Sprint Tracking)
+- GitHub Workflow Management (Version Control & Collaboration)
+- Dashboard & Reporting Tools
+- Confluence & Technical Documentation
 
-### Project & Collaboration Tools
-- GitHub
-- Google Workspace
-- Microsoft Office
-- Microsoft Excel
-
-### Design & Review
-- Figma
-
-### Hosting & Deployment
-- Hostinger
-- cPanel
-- Vercel
-- Netlify
-
-### AI Productivity
-- ChatGPT
-- Gemini
-- Claude
-- Codex
-- Amazon Q
-
-### Testing & QA
-- Browser Developer Tools
-- Cross-browser Testing
+### Marketplace & Platform Architecture
+- Multi-Vendor Marketplace Design
+- Service Provider Management Systems
+- Location-Based Service Architecture
+- Payment & Delivery Logic Systems
+- Multi-Dashboard Ecosystem Design
 
 ---
 
@@ -151,3 +175,8 @@ Vivek Debnath is a technology operations professional and project management str
 ---
 
 *References available upon request.*
+`;
+        document.getElementById("content").innerHTML = marked.parse(rawMd);
+    </script>
+</body>
+</html>
