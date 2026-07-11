@@ -105,6 +105,17 @@ Vivek Debnath is a technology operations professional and project management str
 - IT Delivery Management
 - Process Optimization & SOPs
 
+### Task Management
+- Linear
+- Microsoft Planner
+- Microsoft To Do
+
+### Microsoft 365
+- Microsoft Teams
+- Outlook
+- Microsoft Loop
+- Calendar
+
 ### Project & Collaboration Tools
 - GitHub
 - Google Workspace

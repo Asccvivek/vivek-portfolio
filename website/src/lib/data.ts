@@ -111,6 +111,25 @@ export const skills = [
     ],
   },
   {
+    category: "Task Management",
+    level: "Expert",
+    items: [
+      "Linear",
+      "Microsoft Planner",
+      "Microsoft To Do",
+    ],
+  },
+  {
+    category: "Microsoft 365",
+    level: "Expert",
+    items: [
+      "Microsoft Teams",
+      "Outlook",
+      "Microsoft Loop",
+      "Calendar",
+    ],
+  },
+  {
     category: "Project & Collaboration",
     level: "Advanced",
     items: [
