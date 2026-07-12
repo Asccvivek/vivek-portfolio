@@ -49,27 +49,27 @@ Results-oriented IT Project Manager with over 12 years of professional experienc
 ### Senior IT Project Manager
 NexG | Feb 2019 – Jun 2026 | Bhopal, India
 
-Led cross-functional software delivery across multiple digital products, coordinating requirement gathering, sprint planning, QA/UAT, release management, and stakeholder communication across hospitality, HR tech, healthcare, CRM, and service platforms. [query]
+Led cross-functional software delivery across multiple digital products, coordinating requirement gathering, sprint planning, QA/UAT, release management, and stakeholder communication across hospitality, HR tech, healthcare, CRM, and service platforms.
 
 Key projects:
 
 eRestro — Project Manager / Business Analyst
-Led requirement gathering and workflow design for a restaurant ERP and POS platform covering inventory, QR ordering, KDS, and billing logic. Coordinated sprint planning, QA, UAT, and production rollout while helping define menu hierarchy and order-routing workflows. [query]
+Led requirement gathering and workflow design for a restaurant ERP and POS platform covering inventory, QR ordering, KDS, and billing logic. Coordinated sprint planning, QA, UAT, and production rollout while helping define menu hierarchy and order-routing workflows.
 
 ElectricDada — Project Manager / Product Planner
-Planned multi-role workflows for customers, electricians, shop owners, and admins in an on-demand services marketplace. Defined functional requirements, tracked milestones, and supported QA/UAT for MVP launch. [query]
+Planned multi-role workflows for customers, electricians, shop owners, and admins in an on-demand services marketplace. Defined functional requirements, tracked milestones, and supported QA/UAT for MVP launch.
 
 NexG HRMS — Project Manager
-Managed requirement gathering for payroll, attendance, recruitment, and employee directory workflows. Coordinated sprint schedules, bug triage, and release validation for the HRMS platform. [query]
+Managed requirement gathering for payroll, attendance, recruitment, and employee directory workflows. Coordinated sprint schedules, bug triage, and release validation for the HRMS platform.
 
 NexG Homecare — Technical Project Coordinator
-Supported delivery of a healthcare home-service platform by coordinating provider workflows, security requirements, stakeholder communication, QA/UAT, and deployment planning. [query]
+Supported delivery of a healthcare home-service platform by coordinating provider workflows, security requirements, stakeholder communication, QA/UAT, and deployment planning.
 
 Elite Works CRM — Project Manager
-Led requirements and backlog coordination for GPS attendance, inventory tracking, and field reporting workflows. Helped define offline sync logic and supported QA/UAT and release planning. [query]
+Led requirements and backlog coordination for GPS attendance, inventory tracking, and field reporting workflows. Helped define offline sync logic and supported QA/UAT and release planning.
 
 Salonix — Project Coordinator
-Mapped booking, scheduling, and staff allocation workflows for a salon booking platform. Coordinated sprint planning, user feedback handling, and testing for appointment conflict resolution. [query]
+Mapped booking, scheduling, and staff allocation workflows for a salon booking platform. Coordinated sprint planning, user feedback handling, and testing for appointment conflict resolution.
 
 Additional projects: Unity Greet Canvas Editor, 1 Tom Plumber, and Synergy Technologies — supported project coordination, requirement documentation, QA/UAT, stakeholder reviews, and release tracking across these product initiatives.
 
