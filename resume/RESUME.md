@@ -12,7 +12,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Results-oriented IT Project Manager with over 12 years of professional experience, including extensive hands-on expertise orchestrating multi-platform digital ecosystems, requirement gathering, an[...]
+Results-oriented IT Project Manager and Software Project Manager with 6–7 years of hands-on experience leading software delivery at NexG and 12+ years of total professional experience across project coordination, team leadership, client communication, and operations. Strong background in SDLC, Agile coordination, requirement gathering, QA/UAT, release planning, and cross-functional collaboration across web and mobile products.
 
 ---
 
