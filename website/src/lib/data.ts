@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "IT Project Manager & AI Operations Strategist",
   location: "Bhopal, India",
   email: "vivekdvnath@gmail.com",
-  linkedin: "https://www.linkedin.com/in/vivek-debnath-4400321a4/",
+  linkedin: "https://www.linkedin.com/in/vivek-debnath-it",
   github: "https://github.com/Asccvivek",
   resumeUrl: "/resume.pdf",
 };

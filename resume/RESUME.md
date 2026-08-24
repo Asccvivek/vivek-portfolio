@@ -4,8 +4,8 @@
 
 📍 Bhopal, Madhya Pradesh, India
 📧 vivekdvnath@gmail.com
-📞 +91 8972632747
-🔗 linkedin.com/in/vivek-debnath
+📞 +91 9394242828
+🔗 linkedin.com/in/vivek-debnath-it
 💻 github.com/Asccvivek
 
 ---
