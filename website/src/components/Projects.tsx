@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight, Github, ExternalLink, Sparkles } from "lucide-react";
 import { SectionHeading, FadeIn } from "./SectionHeading";
 import { projects } from "@/lib/data";
+import { brandFor } from "@/lib/brands";
 
 export function Projects() {
   return (
@@ -16,22 +18,59 @@ export function Projects() {
         />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, i) => (
+          {projects.map((project, i) => {
+            const brand = brandFor(project.slug);
+            return (
             <FadeIn key={project.slug} delay={i * 0.06}>
-              <div className="glass-card group flex h-full flex-col p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/30 hover:shadow-xl hover:shadow-secondary/5">
-                {/* Header Category and Featured Badge */}
-                <div className="mb-4 flex items-center justify-between gap-2">
-                  <span className="inline-block rounded-full bg-secondary/10 px-3 py-1 font-mono text-xs font-medium text-secondary">
-                    {project.category}
+              <div className="glass-card group relative flex h-full flex-col overflow-hidden p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/30 hover:shadow-xl hover:shadow-secondary/5">
+                {/* Brand accent bar */}
+                <span
+                  aria-hidden
+                  className="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 transition-transform duration-500 group-hover:scale-x-100"
+                  style={{ background: `linear-gradient(90deg, ${brand.accent}, transparent)` }}
+                />
+
+                {/* Brand tile + badges */}
+                <div className="mb-5 flex items-start justify-between gap-3">
+                  <span
+                    className="relative flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border"
+                    style={{
+                      borderColor: `${brand.accent}40`,
+                      background: `radial-gradient(circle at 30% 25%, ${brand.accent}33, rgba(2,6,23,0.65))`,
+                      boxShadow: `0 8px 24px -12px ${brand.accent}`,
+                    }}
+                  >
+                    {brand.logo ? (
+                      <Image
+                        src={brand.logo}
+                        alt={`${project.title} logo`}
+                        fill
+                        sizes="48px"
+                        className="object-contain p-2"
+                      />
+                    ) : (
+                      <span
+                        className="font-heading text-sm font-bold"
+                        style={{ color: brand.accent }}
+                      >
+                        {brand.monogram}
+                      </span>
+                    )}
                   </span>
-                  {project.featured && (
-                    <span className="inline-flex items-center gap-1 rounded-full bg-accent/15 px-2.5 py-0.5 font-mono text-[11px] font-semibold text-accent">
-                      <Sparkles size={11} /> Featured
+
+                  <div className="flex flex-wrap items-center justify-end gap-2">
+                    <span className="inline-block rounded-full bg-secondary/10 px-3 py-1 font-mono text-xs font-medium text-secondary">
+                      {project.category}
                     </span>
-                  )}
+                    {project.featured && (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-accent/15 px-2.5 py-0.5 font-mono text-[11px] font-semibold text-accent">
+                        <Sparkles size={11} /> Featured
+                      </span>
+                    )}
+                  </div>
                 </div>
 
-                <h3 className="mb-1 font-heading text-lg font-semibold text-white group-hover:text-secondary transition-colors">
+                <h3 className="mb-1 font-heading text-lg font-semibold text-white transition-colors group-hover:text-secondary">
                   {project.title}
                 </h3>
                 <p className="mb-3 text-xs font-medium text-accent leading-snug">
@@ -106,7 +145,8 @@ export function Projects() {
                 </div>
               </div>
             </FadeIn>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
