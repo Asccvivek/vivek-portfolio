@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Vivek Debnath",
-  title: "IT Project Manager & AI Operations Strategist",
+  title: "Senior IT Project Manager",
   location: "Bhopal, India",
   email: "vivekdvnath@gmail.com",
   linkedin: "https://www.linkedin.com/in/vivek-debnath-it",
@@ -11,35 +11,35 @@ export const siteConfig = {
 export const heroContent = {
   headline: "I Build Digital Ecosystems That Scale.",
   subheadline:
-    "IT Project Manager & AI Operations Strategist — Orchestrating marketplace platforms, SaaS products, and service ecosystems from concept to execution.",
+    "Senior IT Project Manager & Software Project Manager — leading delivery across restaurant POS/ERP, HRMS, healthcare, on-demand marketplaces and AI products with live URLs, verifiable codebases, and measured outcomes.",
   stats: [
+    { value: "14+", label: "Years Experience" },
     { value: "13+", label: "Platforms Shipped" },
-    { value: "5+", label: "Industries" },
-    { value: "AI-First", label: "Workflows" },
-    { value: "Multi-Tier", label: "Dashboards" },
+    { value: "7+", label: "Years at NexG" },
+    { value: "AI-First", label: "Delivery Workflows" },
   ],
 };
 
 export const aboutContent = {
   intro:
-    "I'm Vivek Debnath — an IT Project Manager and Operations Strategist based in Bhopal, India. I specialize in transforming complex business requirements into operational digital ecosystems.",
+    "I'm Vivek Debnath — a Senior IT Project Manager based in Bhopal, India. I turn complex operational and business requirements into production-ready digital products.",
   description:
-    "Over the course of my career, I've coordinated the planning, architecture, and execution of 13+ technology platforms spanning service marketplaces, SaaS products, healthcare systems, hospitality management, and startup ventures.",
+    "Across my career I've led delivery of 13+ commercial platforms — multi-tenant restaurant POS/ERP, enterprise HRMS & payroll, healthcare home-service, field-force CRM, on-demand marketplaces and AI products — owning the full path from requirement gathering and PRD through sprint planning and QA/UAT to production release.",
   principles: [
     {
-      title: "Systems Thinking",
+      title: "Systems Thinking & Architecture",
       description:
-        "Every platform is an ecosystem. I design operational workflows that account for every stakeholder — ensuring seamless coordination at every layer.",
+        "Every platform is an interconnected ecosystem. I engineer end-to-end workflows accounting for every stakeholder — consumers, vendors, operators, and platform administrators.",
     },
     {
-      title: "AI-First Operations",
+      title: "AI-First Operations & Acceleration",
       description:
-        "I integrate AI-assisted tools into every phase of project management — from requirement analysis to workflow planning to execution coordination.",
+        "I integrate AI-assisted reasoning into every phase of project management — from automated requirement decomposition to deliverability pipelines and real-time telemetry.",
     },
     {
-      title: "Execution Over Theory",
+      title: "Production Execution Over Theory",
       description:
-        "From multi-sided marketplaces with 3-tier dashboard systems to restaurant management platforms — my portfolio represents real operational systems.",
+        "Every project in my portfolio is backed by live staging environments, interactive client prototypes, and verifiable GitHub codebases.",
     },
   ],
 };
@@ -48,201 +48,421 @@ export const services = [
   {
     title: "Project & Operations Management",
     description:
-      "Orchestrating complex multi-stakeholder platforms with structured workflows, milestone tracking, and cross-functional coordination.",
+      "Orchestrating complex multi-stakeholder platforms with structured sprint workflows, milestone tracking, and cross-functional technical coordination.",
     icon: "layers",
   },
   {
     title: "AI-Integrated Workflow Design",
     description:
-      "Leveraging AI tools like Amazon Q and intelligent automation to accelerate planning cycles and optimize resource allocation.",
+      "Leveraging AI tools and intelligent automation to accelerate planning cycles, automate verification pipelines, and optimize operational throughput.",
     icon: "brain",
   },
   {
     title: "Marketplace & Platform Architecture",
     description:
-      "Designing scalable multi-vendor ecosystems with role-based dashboards, service coordination, and operational frameworks.",
+      "Designing scalable multi-vendor ecosystems with role-based dashboards, real-time dispatch systems, and robust operational frameworks.",
     icon: "network",
   },
 ];
 
 export const skills = [
   {
-    category: "Project Management",
+    category: "Project & Product Management",
     level: "Expert",
     items: [
-      "Agile Coordination",
-      "Sprint Planning",
+      "Agile & Scrum Leadership",
+      "Sprint & Milestone Planning",
       "Stakeholder Management",
-      "Risk Assessment",
-      "Milestone Tracking",
+      "Risk Mitigation & SLA Governance",
+      "Requirement Gathering (BRD/PRD)",
+      "Technical Roadmapping",
     ],
   },
   {
-    category: "AI & Automation",
-    level: "Advanced",
-    items: [
-      "AI-Assisted Workflows",
-      "Amazon Q Integration",
-      "Prompt Engineering",
-      "Intelligent Automation",
-      "AI Productivity Systems",
-    ],
-  },
-  {
-    category: "Operations Management",
+    category: "AI & Autonomous Workflows",
     level: "Expert",
     items: [
-      "Process Optimization",
-      "SOP Development",
-      "Operational Reporting",
-      "KPI Frameworks",
-      "Resource Coordination",
+      "AI-Assisted Systems Engineering",
+      "Prompt Engineering & Agents",
+      "Automated Outreach Pipelines",
+      "Browser Automation & Testing",
+      "DNS/MX Validation Automation",
+      "Intelligent Telemetry",
     ],
   },
   {
-    category: "Product & Platform",
+    category: "Systems & Architecture",
     level: "Advanced",
     items: [
-      "Requirement Gathering",
-      "Marketplace Architecture",
-      "Dashboard Design",
-      "User Flow Planning",
-      "Feature Prioritization",
+      "Multi-Tenant SaaS Architecture",
+      "3-Tier Role-Based Dashboards",
+      "Live Orders & KDS Dispatch Flow",
+      "Location-Based Service Routing",
+      "Fintech Loan Origination (LOS/LMS)",
+      "Inventory Valuation & Khata Ledgers",
     ],
   },
   {
-    category: "Task Management",
-    level: "Expert",
-    items: [
-      "Linear",
-      "Microsoft Planner",
-      "Microsoft To Do",
-    ],
-  },
-  {
-    category: "Microsoft 365",
-    level: "Expert",
-    items: [
-      "Microsoft Teams",
-      "Outlook",
-      "Microsoft Loop",
-      "Calendar",
-    ],
-  },
-  {
-    category: "Project & Collaboration",
+    category: "UI/UX & Interactive Engineering",
     level: "Advanced",
     items: [
-      "GitHub",
+      "360° Hardware Inspection Engine",
+      "60fps Pointer-Capture Sliders",
+      "Responsive Glassmorphic Design",
+      "Tailwind CSS & Modern CSS3",
+      "React & Next.js 15",
+      "Lucide Vector Design Systems",
+    ],
+  },
+  {
+    category: "Tooling & Collaboration",
+    level: "Expert",
+    items: [
+      "Git & GitHub Version Control",
+      "VS Code & JetBrains",
+      "Linear & Jira",
+      "Microsoft 365 & Teams",
       "Google Workspace",
-      "Microsoft Office",
-      "Microsoft Excel",
+      "Postman & API Debugging",
     ],
   },
   {
-    category: "Design & Review",
+    category: "Deployment & DevOps",
     level: "Advanced",
     items: [
-      "Figma",
-    ],
-  },
-  {
-    category: "Hosting & Deployment",
-    level: "Advanced",
-    items: [
-      "Hostinger",
-      "cPanel",
-      "Vercel",
-      "Netlify",
-    ],
-  },
-  {
-    category: "AI Productivity",
-    level: "Expert",
-    items: [
-      "ChatGPT",
-      "Gemini",
-      "Claude",
-      "Codex",
-      "Amazon Q",
-    ],
-  },
-  {
-    category: "Testing & QA",
-    level: "Advanced",
-    items: [
-      "Browser Developer Tools",
-      "Cross-browser Testing",
+      "Vercel & Netlify",
+      "Hostinger & cPanel",
+      "Turborepo & PNPM",
+      "Subprocess Automation",
+      "Cross-Browser E2E QA",
     ],
   },
 ];
 
 export const experience = [
   {
-    role: "IT Project Manager & Operations Strategist",
-    company: "Independent / Multi-Platform Portfolio",
+    role: "Senior IT Project Manager",
+    company: "Nex Gen Tech (NexG)",
     location: "Bhopal, India",
-    period: "Present",
+    period: "Feb 2019 — Jun 2026",
     achievements: [
-      "Orchestrated end-to-end product planning for 13+ digital platforms across diverse industry verticals",
-      "Architected marketplace workflow systems supporting multi-stakeholder ecosystems",
-      "Designed AI-assisted workflow systems reducing project planning cycles",
-      "Developed comprehensive dashboard architectures for real-time operational monitoring",
-      "Coordinated cross-functional requirements across technical, business, and UX domains",
-      "Established reporting structures enabling data-driven operational decisions",
+      "Led end-to-end delivery of 13+ commercial web, mobile and SaaS platforms — requirement gathering, PRD, sprint planning, QA/UAT and production release — for distributed engineering, QA and design teams.",
+      "eRestro multi-tenant restaurant ERP/POS: drove QR ordering, multi-station KDS, POS billing and recipe-level inventory auto-deduction across 18 concurrent live floor tables.",
+      "FoneZone refurbished e-commerce & COD ops: shipped 360° studio inspection, 32-point video proof and a 2-way WhatsApp OTP bot — modelled at ₹13.3L annual RTO savings and up to 28% fewer wasted COD shipments.",
+      "AI Transmission Tower & Powerline Inspection: cut defect compliance review from 2–3 weeks of manual photo zooming to 15–20 minutes of automated screening.",
+      "Also delivered ElectricDada marketplace, NexG HRMS payroll, NexG Homecare, Elite Works CRM, Salonix, Tract AI voice platform, 1-Tom-Plumber and Unity Greet.",
+    ],
+  },
+  {
+    role: "Placement Officer",
+    company: "Orion Edu Tech Pvt Ltd",
+    location: "Bhopal, India",
+    period: "Jan 2016 — Jan 2019",
+    achievements: [
+      "Ran placement operations for government skill-development programmes: employer sourcing, candidate screening, resume structuring and interview scheduling.",
+      "Planned and executed campus recruitment drives; consistently exceeded quarterly placement targets.",
+      "Maintained candidate lifecycle records and employer feedback logs.",
+    ],
+  },
+  {
+    role: "Team Leader",
+    company: "Firstsource Ltd",
+    location: "India",
+    period: "Feb 2015 — Nov 2015",
+    achievements: [
+      "Led a customer-support team: daily operations, performance QA, escalation handling and agent mentoring.",
+      "Tracked KPIs and SLAs, ran regular QA reviews and reported operational status to managers.",
+    ],
+  },
+  {
+    role: "Team Leader",
+    company: "Hinduja Global Solutions (HGS)",
+    location: "India",
+    period: "Mar 2012 — Jan 2015",
+    achievements: [
+      "Ran customer support on Airtel/Vodafone processes: KPI & SLA tracking, QA reviews, escalation handling and process improvement.",
+      "Promoted to Knowledge Network Expert within 3 months for process governance and training efficiency.",
     ],
   },
 ];
 
-export const projects = [
+export interface Project {
+  slug: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  industry: string;
+  role: string;
+  description: string;
+  tags: string[];
+  features: string[];
+  liveUrl?: string;
+  githubUrl?: string;
+  demoUrl?: string;
+  metrics?: string[];
+  featured?: boolean;
+}
+
+export const projects: Project[] = [
+  {
+    slug: "fonezone",
+    title: "FoneZone",
+    subtitle: "360° Refurbished Electronics E-Commerce & Ops Hub",
+    category: "E-Commerce & Ops",
+    industry: "Consumer Electronics",
+    role: "Technical Project Manager",
+    description:
+      "Flagship refurbished electronics platform featuring a transparent 360° multi-angle hardware turntable inspector, 32-point video proof diagnostics, automated 2-way WhatsApp OTP verification bot, and real-time COD-to-Dispatched Operations Kanban.",
+    tags: [
+      "E-Commerce",
+      "360° Hardware Inspector",
+      "WhatsApp OTP Bot",
+      "Operations Kanban",
+      "COD RTO Triage",
+      "Tailwind CSS",
+    ],
+    features: [
+      "360° Multi-Angle Studio Turntable with degree scrubber & auto-spin",
+      "Dynamic cosmetic flaw coordinate pins & category-aware inspection",
+      "32-Point diagnostic video proof modal with Lucide HUD controls",
+      "COD RTO risk triage queue with ₹300 UPI prepayment incentive",
+      "Automated 2-way WhatsApp OTP customer verification bot",
+      "Real-time COD-to-Dispatched 4-stage Operations Kanban board",
+    ],
+    liveUrl: "https://fonezone-demo-live.loca.lt",
+    githubUrl: "https://github.com/nexgtech-dev/fonezone",
+    demoUrl: "/demos/fonezone-modern-demo",
+    metrics: [
+      "₹13.3L/yr RTO Savings",
+      "360° Turntable Physics",
+      "32-Pt Diagnostic Proof",
+    ],
+    featured: true,
+  },
+  {
+    slug: "happy-whites",
+    title: "Happy Whites Dental",
+    subtitle: "Aesthetic Dentistry & Smile Transformation Suite",
+    category: "Healthcare & Patient UX",
+    industry: "Aesthetic Dentistry / MedTech",
+    role: "Product & Delivery Lead",
+    description:
+      "High-converting patient experience platform for premier cosmetic dentistry, featuring an unclipped 60fps/120fps Pointer-Capture Before/After Smile Transformation Slider with calibrated Vita A3.5 human enamel textures, 3D operatory tour modal, and direct doctor booking engine.",
+    tags: [
+      "Healthcare Web",
+      "Pointer Capture API",
+      "Smile Transformation Slider",
+      "Virtual Tour Modal",
+      "WhatsApp Booking",
+    ],
+    features: [
+      "60fps Pointer-Capture dual-layer smile transformation slider",
+      "Authentic Vita A3.5 human enamel dentin photography calibration",
+      "1:1 pixel-aligned 3:2 aspect ratio container with unclipped badges",
+      "Interactive preset pills (100% Stained, 50/50 Split, 100% Whitened)",
+      "Virtual Clinic Tour modal with ambient operatory background",
+      "Instant WhatsApp specialist consultation booking engine",
+    ],
+    liveUrl: "https://github.com/Asccvivek/happywhites",
+    githubUrl: "https://github.com/Asccvivek/happywhites",
+    demoUrl: "/demos/happy-whites-dental",
+    metrics: [
+      "60fps Pointer Capture",
+      "100% Seam-Free Alignment",
+      "Direct WhatsApp Lead Flow",
+    ],
+    featured: true,
+  },
+  {
+    slug: "erestro",
+    title: "Erestro SaaS",
+    subtitle: "Next-Gen Restaurant Management ERP & Cloud Kitchen OS",
+    category: "Enterprise SaaS & ERP",
+    industry: "Hospitality / F&B Operations",
+    role: "Delivery & Operations Lead",
+    description:
+      "Enterprise restaurant management and cloud kitchen ERP powering 50+ dishes across 18 live tables with tokenized Kitchen Display System (KDS), real-time floor status, granular staff permission matrix, ingredient-level inventory valuation, and credit Khata ledger.",
+    tags: [
+      "Enterprise SaaS",
+      "Live Orders Kanban",
+      "Kitchen Display (KDS)",
+      "QR Table Management",
+      "Inventory Valuation",
+      "Khata Ledger",
+    ],
+    features: [
+      "Multi-tenant Platform Console with one-time owner impersonation token",
+      "Real-time Live Orders Kanban (Accepted, Preparing, Served, Completed)",
+      "Tokenized Kitchen Display Screen (KDS) with zero-latency ticket sync",
+      "18-Table interactive floor plan with live QR order ingestion",
+      "Granular staff permission switches (Sales money, Khata, Inventory)",
+      "Customer Khata credit pool ledger & 51 slow-moving item alerts",
+    ],
+    liveUrl: "https://stage.erestro.in",
+    githubUrl: "https://github.com/nex-gen-tech/erestro",
+    metrics: [
+      "18 Live Floor Tables",
+      "Zero-Latency KDS Tickets",
+      "57-Item Menu Engine",
+    ],
+    featured: true,
+  },
   {
     slug: "electric-dada",
     title: "Electric Dada",
-    subtitle: "Location-Based Electrical Service Marketplace",
-    category: "Marketplace",
-    industry: "Home Services",
+    subtitle: "Location-Based Electrical Service & Product Marketplace",
+    category: "Service Marketplace",
+    industry: "Home Services / Electrical",
     role: "Product & Operations Lead",
     description:
-      "Multi-sided marketplace connecting electricians, electrical shops, and consumers through location-based discovery with a 3-tier dashboard ecosystem.",
+      "Multi-sided marketplace connecting electricians, electrical shops, and consumers through location-based discovery with a 3-tier dashboard ecosystem and distance-weighted dispatch engine.",
     tags: [
       "Marketplace Architecture",
       "Multi-Dashboard",
       "Location Services",
-      "AI Planning",
+      "Prisma ORM",
+      "Next.js",
     ],
     features: [
-      "Electrician Booking",
-      "Shop Discovery",
-      "Product Comparison",
-      "Delivery Logic",
-      "Admin Dashboard",
-      "Electrician Dashboard",
-      "Shop Owner Dashboard",
+      "3-Tier role-based dashboard suite (Consumer, Electrician, Shop Owner)",
+      "Distance-weighted dispatch algorithm for emergency electrician callouts",
+      "Multi-vendor electrical product catalog with real-time shop pricing",
+      "Automated delivery charge calculation based on distance and weight",
+      "Admin marketplace health oversight and commission disbursement",
     ],
+    liveUrl: "https://github.com/asccvivek/electric-dada",
+    githubUrl: "https://github.com/asccvivek/electric-dada",
+    metrics: [
+      "3-Tier Dashboard Suite",
+      "Real-Time Location Dispatch",
+      "Multi-Vendor Catalog",
+    ],
+    featured: true,
   },
   {
-    slug: "e-restro",
-    title: "E-Restro",
-    subtitle: "Restaurant Management & Operations Platform",
-    category: "SaaS",
-    industry: "Hospitality",
-    role: "Operations Coordinator",
+    slug: "loan-platform",
+    title: "NexG NBFC Digital Lending",
+    subtitle: "Digital Lending & Microfinance Platform Architecture",
+    category: "Fintech & Lending",
+    industry: "Financial Services / NBFC",
+    role: "Senior Technical Project Manager",
     description:
-      "Comprehensive restaurant management system with inventory, QR-based table management, KOT printing, and real-time analytics dashboards.",
+      "End-to-end digital lending platform architecture covering loan origination (LOS), loan management (LMS), multi-tier credit risk scoring, automated KYC/e-Sign flows, and 12-week client delivery roadmap.",
     tags: [
-      "SaaS Operations",
-      "Inventory Systems",
-      "QR Integration",
-      "Analytics",
+      "Fintech Architecture",
+      "Loan Origination (LOS)",
+      "Loan Management (LMS)",
+      "Risk Matrix",
+      "API Specification",
     ],
     features: [
-      "Inventory Management",
-      "QR Table Management",
-      "KOT Printing",
-      "Reporting Dashboards",
-      "Ingredient Management",
-      "Customer Module",
+      "Comprehensive 12-week client delivery roadmap and API architecture",
+      "Multi-tier borrower risk scoring & credit underwriting rules engine",
+      "Automated Aadhaar/PAN KYC verification and e-Sign integration flow",
+      "Interactive borrower loan calculator & EMI amortization prototype",
+      "Executive pitch deck and technical blueprint suite",
     ],
+    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
+    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
+    metrics: [
+      "12-Week Delivery Blueprint",
+      "Multi-Tier Underwriting",
+      "Full API Specs",
+    ],
+    featured: false,
+  },
+  {
+    slug: "yaan-cab",
+    title: "Yaan Cab",
+    subtitle: "Hill Station Mobility & Mountain Transit Network",
+    category: "Mobility & Logistics",
+    industry: "Transportation / Travel",
+    role: "Product Strategist & Planner",
+    description:
+      "Specialized hill station and tourist cab dispatch system engineered for remote transit corridors, featuring offline-first booking architecture, driver route matrix, and fixed-corridor fare calculation.",
+    tags: [
+      "Mobility Tech",
+      "Hill Transit",
+      "Offline Architecture",
+      "Fleet Dispatch",
+      "Route Matrix",
+    ],
+    features: [
+      "Offline-first SMS/USSD fallback booking for low-connectivity zones",
+      "100+ tourist cab fleet operator database and dispatch directory",
+      "Fixed mountain corridor fare calculation engine (no surge exploitation)",
+      "Driver onboarding and route compliance monitoring system",
+    ],
+    liveUrl: "https://github.com/Asccvivek/yaan-cab",
+    githubUrl: "https://github.com/Asccvivek/yaan-cab",
+    metrics: [
+      "Offline-First Architecture",
+      "100+ Fleet Matrix",
+      "Zero-Surge Algorithm",
+    ],
+    featured: false,
+  },
+  {
+    slug: "ai-career-os",
+    title: "AI Career OS",
+    subtitle: "Autonomous Career Intelligence & Outreach Engine",
+    category: "AI & Automation",
+    industry: "Productivity / AI Systems",
+    role: "Delivery Lead",
+    description:
+      "Full-stack AI automation suite powered by Turborepo, featuring intelligent application telemetry, automated outreach pipelines, DNS/MX deliverability verification, and candidate profile optimization.",
+    tags: [
+      "Turborepo Monorepo",
+      "AI Workflows",
+      "Automated Outreach",
+      "DNS/MX Validation",
+      "TypeScript",
+    ],
+    features: [
+      "High-performance Turborepo monorepo workspace architecture",
+      "Direct TCP socket port 25 MX handshake deliverability verification",
+      "Automated email staging engine with isolated session tabs",
+      "Multi-source enterprise intelligence crawler and candidate telemetry",
+    ],
+    liveUrl: "https://github.com/Asccvivek/ai-career-os",
+    githubUrl: "https://github.com/Asccvivek/ai-career-os",
+    metrics: [
+      "Turborepo Architecture",
+      "Zero-Bounce Protocol",
+      "Automated Staging",
+    ],
+    featured: false,
+  },
+  {
+    slug: "client-blueprints",
+    title: "Enterprise Architecture Blueprints",
+    subtitle: "High-Density Visual Systems Engineering Suite",
+    category: "Enterprise Architecture",
+    industry: "Manufacturing, Logistics & Healthcare",
+    role: "Senior Technical Project Manager",
+    description:
+      "Bespoke visual systems architecture blueprints and operational engineering suites designed for leading traditional enterprises (Carryfast Logistics, Bansal Steel, Flexituff Ventures, Balaji Cold Storage, Namco Industries, Chaturbhuj Logistics).",
+    tags: [
+      "Systems Blueprints",
+      "Enterprise IoT",
+      "Cold-Chain Telemetry",
+      "Tally Prime Integration",
+      "Vector PDF Engine",
+    ],
+    features: [
+      "Visual Data Flow Comparison: Legacy Friction vs Automated POD Integration",
+      "Cold Chain Fleet IoT Telemetry Stack (BLE/RS485 Sensors to Cloud Gateway)",
+      "60-Day In-House Engineering Roadmaps with measurable ROI calculations",
+      "Automated headless rendering to vector PDF and high-res retina PNG",
+    ],
+    liveUrl: "https://github.com/nex-gen-tech/nexg",
+    githubUrl: "https://github.com/nex-gen-tech/nexg",
+    metrics: [
+      "50+ Enterprise Blueprints",
+      "Vector PDF/PNG Generator",
+      "IoT Telemetry Stack",
+    ],
+    featured: false,
   },
   {
     slug: "salonix",
@@ -260,6 +480,10 @@ export const projects = [
       "Customer Flow",
       "Salon Workflows",
     ],
+    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
+    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
+    metrics: ["Real-Time Booking", "Optimized Flow"],
+    featured: false,
   },
   {
     slug: "homecare",
@@ -277,49 +501,124 @@ export const projects = [
       "Service Coordination",
       "Quality Assurance",
     ],
-  },
-  {
-    slug: "rural-ride",
-    title: "Rural Ride Booking",
-    subtitle: "Local Transport Startup Concept",
-    category: "Startup Concept",
-    industry: "Transportation",
-    role: "Startup Strategist",
-    description:
-      "Rural transport ecosystem addressing underserved local mobility markets with auto/tuk-tuk booking and location-based matching.",
-    tags: ["Startup Strategy", "MVP Planning", "Mobility", "Rural Tech"],
-    features: [
-      "Auto Booking",
-      "Tuk-tuk Booking",
-      "Fare Calculation",
-      "Driver Management",
-    ],
-  },
-  {
-    slug: "additional-platforms",
-    title: "Additional Platforms",
-    subtitle: "7+ Business & Service Platforms",
-    category: "Multi-Platform",
-    industry: "Various",
-    role: "Operations Coordinator",
-    description:
-      "Coordinated operational planning for Unitygreet, 1 Tom Plumber, Elite Works, Synergy Tech, Tradewinds, Tradefixa, and LegalMark.",
-    tags: [
-      "Multi-Industry",
-      "Workflow Design",
-      "Business Operations",
-      "Process Optimization",
-    ],
-    features: [
-      "Workflow Automation",
-      "Reporting Frameworks",
-      "Stakeholder Management",
-      "Operational Dashboards",
-    ],
+    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
+    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
+    metrics: ["Provider Verification", "Compliance Tracking"],
+    featured: false,
   },
 ];
 
-export const caseStudies = [
+export interface CaseStudy {
+  slug: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  industry: string;
+  role: string;
+  liveUrl?: string;
+  githubUrl?: string;
+  challenge: string;
+  approach: string[];
+  outcomes: string[];
+  skills: string[];
+}
+
+export const caseStudies: CaseStudy[] = [
+  {
+    slug: "fonezone",
+    title: "FoneZone",
+    subtitle: "360° Refurbished Electronics E-Commerce & Operations Platform",
+    category: "E-Commerce | Operations Systems",
+    industry: "Consumer Tech / Refurbished Electronics",
+    role: "Technical Project Manager",
+    liveUrl: "https://fonezone-demo-live.loca.lt",
+    githubUrl: "https://github.com/nexgtech-dev/fonezone",
+    challenge:
+      "The refurbished smartphone and electronics market suffers from severe customer distrust, resulting in 30%+ Cash-on-Delivery (COD) Return-to-Origin (RTO) rates. Static product photography failed to reveal true device cosmetic condition, and operations lacked a structured triage queue for unverified orders.",
+    approach: [
+      "Engineered transparent 360° Studio Multi-Angle Turntable with dynamic cosmetic flaw pin coordinates and degree scrubber",
+      "Processed turntable frame assets into transparent RGBA cutouts, eliminating all rectangular white box artifacts",
+      "Built Amazon-grade 32-Point diagnostic video proof modal with crisp Lucide vector HUD controls",
+      "Architected COD RTO triage queue with automated 2-way WhatsApp OTP verification bot and ₹300 UPI prepayment incentive",
+      "Created real-time 4-stage Operations Kanban board (Pending, OTP Verified, QA Packed, Dispatched) with shared theme state",
+    ],
+    outcomes: [
+      "Projected ₹13.3 Lakhs in annual RTO savings by eliminating non-genuine COD shipments",
+      "100% transparent cosmetic condition visibility across all device categories (Smartphones, Smartwatches, Tablets, MacBooks)",
+      "Zero-latency operational triage workflow connecting storefront buyers to warehouse packers",
+    ],
+    skills: [
+      "360° Hardware Viewer",
+      "COD RTO Triage",
+      "WhatsApp Automation",
+      "Operations Kanban",
+      "Tailwind CSS",
+      "JavaScript",
+    ],
+  },
+  {
+    slug: "happy-whites",
+    title: "Happy Whites Dental Clinic",
+    subtitle: "Aesthetic Dentistry Patient Experience Suite",
+    category: "Healthcare UX | Clinical Conversion",
+    industry: "Aesthetic Dentistry / MedTech",
+    role: "Product & Delivery Lead",
+    liveUrl: "https://github.com/Asccvivek/happywhites",
+    githubUrl: "https://github.com/Asccvivek/happywhites",
+    challenge:
+      "Cosmetic dental clinics struggle to communicate smile makeover results effectively. Generic before/after image galleries with poor lighting or artificial AI smudges create patient skepticism and high bounce rates on high-ticket aligner and veneer treatments.",
+    approach: [
+      "Implemented high-precision Pointer-Capture API (`setPointerCapture`) with RAF-throttled 60fps/120fps tracking across mouse & touch",
+      "Sourced and calibrated 100% authentic macro cosmetic dental case assets with Vita A3.5 human dentin textures and zero skin/lip distortion",
+      "Designed 1:1 pixel-aligned 3:2 aspect ratio container with unclipped glassmorphic status badges and interactive preset pills",
+      "Integrated 3D Virtual Clinic Tour modal showcasing pristine clinical operatories and sterile equipment",
+      "Engineered 1-click WhatsApp specialist consultation booking with pre-filled treatment parameters",
+    ],
+    outcomes: [
+      "Fluid 60fps interactive smile transformation preview with zero seam or jump across 50/50 splits",
+      "Significantly elevated trust for premium treatments (Aligners, Veneers, Laser Whitening, Implants)",
+      "Frictionless conversion path directly from smile simulation to doctor WhatsApp consultation",
+    ],
+    skills: [
+      "Pointer Capture API",
+      "Interactive Canvas",
+      "Healthcare UX",
+      "Clinical Calibration",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    slug: "erestro",
+    title: "Erestro SaaS",
+    subtitle: "Next-Gen Restaurant Management ERP & Cloud Kitchen OS",
+    category: "Enterprise SaaS | ERP Operations",
+    industry: "Hospitality / F&B",
+    role: "Delivery & Operations Lead",
+    liveUrl: "https://stage.erestro.in",
+    githubUrl: "https://github.com/nex-gen-tech/erestro",
+    challenge:
+      "Restaurant operations suffer from disconnected systems — POS terminals, kitchen tickets, table reservations, staff access controls, and raw ingredient inventories fail to synchronize, causing billing leakage and order delays.",
+    approach: [
+      "Audited and synchronized comprehensive staging ecosystem across multi-tenant Platform Console and venue management portals",
+      "Built real-time Live Orders Kanban board with 4 operational stages (Accepted, Preparing, Served, Completed)",
+      "Implemented tokenized Kitchen Display Screen (KDS) for instant ticket routing without thermal printer dependency",
+      "Engineered granular staff permission matrix controlling access to sales collections, customer credit Khata, and inventory valuation",
+      "Designed floor table management with dynamic QR ordering and 51 slow-moving menu item watch alerts",
+    ],
+    outcomes: [
+      "Unified operational command center managing 57 menu items across 18 live tables simultaneously",
+      "Eliminated order misplacement and reduced kitchen fulfillment times via real-time KDS synchronization",
+      "Complete financial transparency with integrated guest credit Khata ledger and gross collection reporting",
+    ],
+    skills: [
+      "Enterprise SaaS",
+      "Live Orders Kanban",
+      "Kitchen Display (KDS)",
+      "QR Management",
+      "Inventory ERP",
+      "Khata Ledger",
+    ],
+  },
   {
     slug: "electric-dada",
     title: "Electric Dada",
@@ -327,81 +626,147 @@ export const caseStudies = [
     category: "Service Marketplace | Multi-Vendor Platform",
     industry: "Home Services / Electrical",
     role: "Product & Operations Lead",
+    liveUrl: "https://github.com/asccvivek/electric-dada",
+    githubUrl: "https://github.com/asccvivek/electric-dada",
     challenge:
-      "The electrical services industry operates in a fragmented, unorganized manner — consumers struggle to find reliable electricians, electrical shops lack digital presence, and service providers have no structured platform for managing bookings and operations.",
+      "The electrical services industry operates in a fragmented manner — consumers struggle to find certified electricians, local retail shops lack digital storefronts, and service providers have no structured platform for dispatch and billing.",
     approach: [
-      "Identified three core stakeholder groups and mapped user journeys",
-      "Designed 3-tier dashboard architecture with role-based access control",
-      "Created service booking workflow with real-time availability management",
-      "Coordinated cross-functional requirements across UI/UX, backend, and business teams",
+      "Mapped user journeys across three distinct stakeholder groups: Consumers, Certified Electricians, and Retail Shop Owners",
+      "Designed 3-tier dashboard architecture with role-based access control and commission management",
+      "Implemented distance-weighted dispatch algorithm for emergency electrical callouts",
+      "Architected multi-vendor product comparison engine with dynamic delivery charge calculation",
     ],
     outcomes: [
-      "Scalable marketplace architecture supporting 3 distinct user roles",
-      "Operational workflows reducing service booking friction",
-      "Dashboard systems providing real-time visibility for all stakeholders",
-      "AI-assisted features for intelligent service provider matching",
+      "Scalable marketplace architecture supporting seamless coordination between 3 user tiers",
+      "Location-aware dispatch reducing electrician response time for urgent home electrical repairs",
+      "Digital storefront engine enabling local electrical shops to sell inventory online",
     ],
     skills: [
       "Marketplace Architecture",
       "Multi-Dashboard Design",
-      "Location Services",
-      "AI Workflow Planning",
+      "Location Dispatch",
+      "Prisma ORM",
+      "Next.js",
     ],
   },
   {
-    slug: "e-restro",
-    title: "E-Restro",
-    subtitle: "Restaurant Management & Operations Platform",
-    category: "SaaS Platform | Operations Management",
-    industry: "Hospitality / Food & Beverage",
-    role: "Operations Coordinator & Systems Analyst",
+    slug: "loan-platform",
+    title: "NexG NBFC Digital Lending",
+    subtitle: "Digital Lending & Microfinance Platform Architecture",
+    category: "Fintech | Lending Architecture",
+    industry: "Financial Services / NBFC",
+    role: "Senior Technical Project Manager",
+    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
+    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
     challenge:
-      "Restaurant operations involve complex interdependencies — inventory management, order processing, table management, kitchen coordination, and financial reporting must all work in harmony.",
+      "Traditional NBFC lending processes are plagued by manual paperwork, slow underwriting cycles (5–7 days), and fragmented verification systems that increase operational overhead and default risk.",
     approach: [
-      "Studied restaurant workflow patterns from order placement to billing",
-      "Coordinated modular system design with integrated modules",
-      "Designed QR-based table management for contactless ordering",
-      "Created operational KPI frameworks for performance monitoring",
+      "Engineered comprehensive 12-week client delivery roadmap and full-scale API architecture for LOS and LMS",
+      "Designed multi-tier borrower risk scoring model integrating credit bureau APIs, bank statement analysis, and KYC",
+      "Developed interactive HTML/CSS prototype demonstrating friction-free borrower onboarding and instant EMI amortization",
+      "Created executive presentation deck and regulatory compliance framework for NBFC leadership",
     ],
     outcomes: [
-      "Integrated restaurant management ecosystem",
-      "Reporting frameworks providing real-time operational visibility",
-      "Inventory systems enabling ingredient-level cost tracking",
-      "QR-based workflows modernizing front-of-house operations",
+      "Turnkey digital lending blueprint reducing loan origination cycle from 5 days to under 15 minutes",
+      "Standardized API specification for seamless core banking and credit bureau integration",
+      "Complete client pitch deck and interactive prototype for enterprise lending stakeholders",
     ],
     skills: [
-      "SaaS Operations",
-      "Inventory Systems",
-      "Reporting & Analytics",
-      "QR Integration",
+      "Fintech Architecture",
+      "Loan Origination (LOS)",
+      "Credit Risk Engine",
+      "API Specification",
+      "Interactive Prototyping",
     ],
   },
   {
-    slug: "rural-ride",
-    title: "Rural Ride Booking Platform",
-    subtitle: "Local Transport & Mobility Startup Concept",
-    category: "Startup Concept | Mobility Platform",
+    slug: "yaan-cab",
+    title: "Yaan Cab",
+    subtitle: "Hill Station Mobility & Mountain Transit Network",
+    category: "Mobility Platform | Transit Architecture",
     industry: "Transportation / Rural Mobility",
-    role: "Startup Strategist & Product Planner",
+    role: "Product Strategist & Planner",
+    liveUrl: "https://github.com/Asccvivek/yaan-cab",
+    githubUrl: "https://github.com/Asccvivek/yaan-cab",
     challenge:
-      "Rural and semi-urban areas face significant transportation gaps — auto-rickshaws and tuk-tuks operate without digital infrastructure, making it difficult for passengers to find rides.",
+      "Mountain and hill station transit routes suffer from unpredictable mobile connectivity, exploitative surge pricing by unorganized operators, and a lack of centralized tourist cab dispatching.",
     approach: [
-      "Analyzed rural transport patterns and passenger behavior",
-      "Designed booking workflow optimized for low-bandwidth environments",
-      "Conceptualized shared-ride matching for common routes",
-      "Planned phased rollout strategy from single town to region",
+      "Designed an offline-first booking architecture with SMS/USSD fallback for zero-network mountain passes",
+      "Compiled and structured database of 100+ verified tourist fleet operators across Northeast hill corridors",
+      "Engineered fixed-corridor fare calculation matrix preventing unfair tourist price gouging",
+      "Created driver management and safety tracking framework for high-altitude routes",
     ],
     outcomes: [
-      "Viable mobility solution for underserved rural markets",
-      "Platform architecture accounting for infrastructure limitations",
-      "Go-to-market strategy with phased geographic expansion",
-      "Operational framework adaptable to diverse transport ecosystems",
+      "Resilient transit platform tailored specifically for mountainous terrain and low-connectivity environments",
+      "Transparent fixed-pricing model increasing tourist trust and driver booking consistency",
+      "Production-ready MVP architecture and comprehensive fleet database",
     ],
     skills: [
-      "Startup Strategy",
-      "MVP Planning",
-      "Market Analysis",
-      "Platform Architecture",
+      "Mobility Architecture",
+      "Offline-First Systems",
+      "Fleet Dispatch Matrix",
+      "Route Optimization",
+      "Marketplace Strategy",
+    ],
+  },
+  {
+    slug: "ai-career-os",
+    title: "AI Career OS",
+    subtitle: "Autonomous Career Intelligence & Outreach Engine",
+    category: "AI Systems | Workflow Automation",
+    industry: "Productivity / AI Engineering",
+    role: "Delivery Lead",
+    liveUrl: "https://github.com/Asccvivek/ai-career-os",
+    githubUrl: "https://github.com/Asccvivek/ai-career-os",
+    challenge:
+      "High-volume job searching and enterprise B2B outreach suffer from email deliverability failures, generic spam templates, disconnected tracking sheets, and manual follow-up fatigue.",
+    approach: [
+      "Engineered high-performance Turborepo monorepo with automated workspace package mappings",
+      "Built direct TCP socket port 25 MX handshake verification engine to guarantee zero-bounce email delivery",
+      "Designed automated Outlook Web and Gmail staging workflows with isolated browser session tabs",
+      "Implemented candidate telemetry dashboard tracking outreach status, interview readiness, and application response rates",
+    ],
+    outcomes: [
+      "Achieved 100% zero-bounce rate across hundreds of verified corporate and decision-maker email addresses",
+      "Automated personalized outreach pipeline saving 20+ hours per week in manual prospecting",
+      "High-speed Turborepo tooling enabling rapid scaling of automation sub-packages",
+    ],
+    skills: [
+      "Turborepo Monorepo",
+      "AI Automation",
+      "Deliverability Engineering",
+      "TypeScript",
+      "Telemetry Dashboards",
+    ],
+  },
+  {
+    slug: "client-blueprints",
+    title: "Enterprise Architecture Blueprints Engine",
+    subtitle: "Visual Systems Engineering & IoT Logistics Blueprints",
+    category: "Enterprise Systems | Industrial IoT",
+    industry: "Logistics, Manufacturing & Supply Chain",
+    role: "Senior Technical Project Manager",
+    liveUrl: "https://github.com/nex-gen-tech/nexg",
+    githubUrl: "https://github.com/nex-gen-tech/nexg",
+    challenge:
+      "Traditional Indian manufacturing and logistics enterprises operate on siloed legacy ERPs and manual paper PODs, causing cash flow friction, delivery dispute delays, and cold chain spoilage.",
+    approach: [
+      "Designed high-density visual systems architecture blueprints illustrating legacy friction vs automated workflows",
+      "Architected Cold Chain Fleet IoT Telemetry stack (BLE/RS485 sensors to IoT Gateway to real-time operations dashboard)",
+      "Formulated 60-day in-house engineering roadmaps with quantified ROI models (2-hour POD billing, ₹0 SaaS markups)",
+      "Automated pixel-perfect headless rendering pipeline generating vector PDFs and retina PNG previews",
+    ],
+    outcomes: [
+      "Delivered tailored visual blueprint suites for 50+ major industrial enterprises (Carryfast Logistics, Bansal Steel, Flexituff Ventures)",
+      "Empowered C-level promoters to visualize digital transformation workflows before committing engineering capital",
+      "Established repeatable automated rendering engine for client-facing technical proposals",
+    ],
+    skills: [
+      "Enterprise Architecture",
+      "IoT Telemetry",
+      "Supply Chain ERP",
+      "Visual Systems Design",
+      "Vector PDF Engine",
     ],
   },
 ];

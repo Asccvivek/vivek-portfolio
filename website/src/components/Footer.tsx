@@ -15,7 +15,7 @@ export function Footer() {
               <span className="gradient-text">Vivek Debnath</span>
             </Link>
             <p className="mt-3 max-w-xs text-sm text-text-secondary">
-              IT Project Manager & AI Operations Strategist building digital
+              Senior IT Project Manager building digital
               ecosystems that scale.
             </p>
           </div>

@@ -1,83 +1,55 @@
-# VIVEK DEBNATH — COMPLETE PORTFOLIO & BRANDING SYSTEM
+# VIVEK DEBNATH — EXECUTIVE PORTFOLIO & REPOSITORY MASTER INDEX
 
-## Master Index
-
----
-
-### 📁 Deliverable Structure
-
-```
-Portfolio/
-├── README.md                          ← You are here
-├── resume/
-│   └── RESUME.md                      ← Executive ATS-friendly resume
-├── linkedin/
-│   └── LINKEDIN_BRANDING.md           ← Headlines, About, Strategy, Banner Ideas
-├── portfolio-website/
-│   └── WEBSITE_CONTENT.md             ← Full site content & page structure
-├── branding/
-│   ├── DESIGN_SYSTEM.md               ← Colors, Fonts, UI/UX, Layout
-│   └── EXECUTIVE_STRATEGY.md          ← Branding strategy, Recruiter positioning, ATS
-├── case-studies/
-│   └── PROJECT_CASE_STUDIES.md        ← Detailed case studies for all projects
-└── github-structure/
-    └── GITHUB_PORTFOLIO.md            ← GitHub profile & repo structure
-```
+**Senior IT Project Manager | Software Project Manager | Technical Project Coordinator**
+📍 Bhopal, India • 📧 vivekdvnath@gmail.com • 📞 +91 9394242828
+💼 [LinkedIn Profile](https://www.linkedin.com/in/vivek-debnath-it) • 💻 [GitHub Profile](https://github.com/Asccvivek)
 
 ---
 
-### ✅ Deliverables Checklist
+## Executive Summary
 
-| # | Deliverable | File Location | Status |
-|---|-------------|---------------|--------|
-| 1 | Executive-Level Portfolio | `resume/RESUME.md` | ✅ |
-| 2 | Professional About Me | `portfolio-website/WEBSITE_CONTENT.md` | ✅ |
-| 3 | Career Summary | `resume/RESUME.md` | ✅ |
-| 4 | Executive Bio | `resume/RESUME.md` | ✅ |
-| 5 | LinkedIn Headline | `linkedin/LINKEDIN_BRANDING.md` | ✅ |
-| 6 | LinkedIn About Section | `linkedin/LINKEDIN_BRANDING.md` | ✅ |
-| 7 | Personal Branding Statement | `linkedin/LINKEDIN_BRANDING.md` | ✅ |
-| 8 | Modern Resume Content | `resume/RESUME.md` | ✅ |
-| 9 | ATS-Friendly Resume Structure | `branding/EXECUTIVE_STRATEGY.md` | ✅ |
-| 10 | Technical Skills Section | `resume/RESUME.md` | ✅ |
-| 11 | Project Management Skills | `resume/RESUME.md` | ✅ |
-| 12 | Operations Management Skills | `resume/RESUME.md` | ✅ |
-| 13 | AI Workflow Skills | `resume/RESUME.md` | ✅ |
-| 14 | Startup & Product Planning | `case-studies/PROJECT_CASE_STUDIES.md` | ✅ |
-| 15 | Detailed Project Case Studies | `case-studies/PROJECT_CASE_STUDIES.md` | ✅ |
-| 16 | Achievement-Oriented Descriptions | `branding/EXECUTIVE_STRATEGY.md` | ✅ |
-| 17 | Recruiter-Friendly Positioning | `branding/EXECUTIVE_STRATEGY.md` | ✅ |
-| 18 | Premium Portfolio Website Structure | `portfolio-website/WEBSITE_CONTENT.md` | ✅ |
-| 19 | Portfolio Homepage Content | `portfolio-website/WEBSITE_CONTENT.md` | ✅ |
-| 20 | Portfolio About Page Content | `portfolio-website/WEBSITE_CONTENT.md` | ✅ |
-| 21 | Portfolio Project Page Structure | `portfolio-website/WEBSITE_CONTENT.md` | ✅ |
-| 22 | Suggested Portfolio UI/UX Design | `branding/DESIGN_SYSTEM.md` | ✅ |
-| 23 | Suggested Color Palette | `branding/DESIGN_SYSTEM.md` | ✅ |
-| 24 | Recommended Fonts | `branding/DESIGN_SYSTEM.md` | ✅ |
-| 25 | LinkedIn Banner Ideas | `linkedin/LINKEDIN_BRANDING.md` | ✅ |
-| 26 | GitHub Portfolio Structure | `github-structure/GITHUB_PORTFOLIO.md` | ✅ |
-| 27 | Modern Professional Design Suggestions | `branding/DESIGN_SYSTEM.md` | ✅ |
-| 28 | Strong Hiring-Oriented Resume Language | `branding/EXECUTIVE_STRATEGY.md` | ✅ |
-| 29 | Premium Portfolio Layout Ideas | `branding/DESIGN_SYSTEM.md` | ✅ |
-| 30 | Modern Executive Branding Strategy | `branding/EXECUTIVE_STRATEGY.md` | ✅ |
+Senior IT Project Manager with **14+ years of total professional experience** (including 7+ years leading software delivery across 13+ digital platforms at Nex Gen Tech). Proven track record orchestrating multi-tenant SaaS ERPs, refurbished tech e-commerce hubs, MedTech patient experiences, and industrial B2B telemetry systems.
 
 ---
 
-### 🎯 Quick-Start Actions
+## Core Production Platforms & Live Codebases
 
-1. **Immediate:** Update LinkedIn headline and about section from `linkedin/LINKEDIN_BRANDING.md`
-2. **This Week:** Set up GitHub profile README from `github-structure/GITHUB_PORTFOLIO.md`
-3. **This Month:** Build portfolio website using `portfolio-website/WEBSITE_CONTENT.md` + `branding/DESIGN_SYSTEM.md`
-4. **Ongoing:** Follow the 90-day branding plan in `branding/EXECUTIVE_STRATEGY.md`
+### 1. 🍽️ [Erestro SaaS Platform](https://github.com/Asccvivek/erestro-saas-platform)
+- **Architecture**: Next.js multi-tenant restaurant management ERP powering 18 live floor tables with QR ordering, tokenized venue impersonation, KDS kitchen dispatching, granular staff permissions, and credit Khata ledger.
+- **Live Staging**: [`https://stage.erestro.in`](https://stage.erestro.in)
+- **GitHub**: [`github.com/nex-gen-tech/erestro`](https://github.com/Asccvivek/erestro-saas-platform)
+
+### 2. 📱 [FoneZone 360° E-Commerce & Ops Center](https://github.com/Asccvivek/fonezone-modern-demo)
+- **Architecture**: Refurbished smartphone e-commerce platform featuring a transparent studio 360° turntable inspector, 32-point video proof QA, automated 2-way WhatsApp OTP bot (₹13.3L annual RTO savings), and real-time COD Operations Kanban.
+- **Live Demo**: [`https://fonezone-demo-live.loca.lt`](https://fonezone-demo-live.loca.lt)
+- **GitHub**: [`github.com/nexgtech-dev/fonezone`](https://github.com/Asccvivek/fonezone-modern-demo)
+
+### 3. 🚚 Carryfast Logistics — Fleet Cold Chain IoT Blueprint
+- **Architecture**: Visual Systems Architecture integrating BLE/RS485 fleet telemetry sensors with automated driver WhatsApp Proof-of-Delivery (POD) for Tally Prime ERP voucher creation within 2 hours.
+
+### 4. 🏭 Bansal Steel Manufacturing — Tally ERP Integration
+- **Architecture**: Dispatch weighbridge payload ingestion, multi-unit Mandideep plant monitoring, and scrap vs. finished steel yield tracking across 3 manufacturing units.
+
+### 5. 🏰 Emerald Green Garden & Resort Prototype
+- **Architecture**: Mobile-first luxury venue prototype featuring 360° venue zone switcher, wedding guest catering package calculator, season date availability checker, and direct WhatsApp booking intent.
+
+### 6. 🦷 [Happy Whites Dental Platform](https://github.com/Asccvivek/happywhites)
+- **Architecture**: Aesthetic dentistry platform featuring an unclipped 60fps RAF Pointer-Capture dual-layer Smile Slider with calibrated Vita A3.5 dentin textures and 3D operatory tour modal.
+- **GitHub**: [`github.com/Asccvivek/happywhites`](https://github.com/Asccvivek/happywhites)
 
 ---
 
-### 🔑 Key Positioning Summary
+## Technical & Managerial Competency Matrix
 
-**You are:** An IT Project Manager & AI Operations Strategist who builds digital ecosystems that scale.
+- **Project & Product Management**: Agile/Scrum Leadership, Sprint Cadence, BRD/PRD Specifications, QA & UAT Coordination, Stakeholder Management.
+- **Systems & SaaS Architecture**: Multi-Tenant SaaS (ERP), 3-Tier Dashboard Stacks, KDS & Live Order Pipelines, Role-Based Access Control (RBAC), Khata Ledgers.
+- **AI & Automation Engines**: AI Workflow Operations, Direct TCP Port 25 MX Handshakes, Browser CDP Daemons, Prompt Engineering, Tract AI.
+- **Tools & Infrastructure**: Next.js, React, Node.js, Tailwind CSS, Python, GitHub, Figma, Vercel.
 
-**Your differentiator:** AI-first project management across 13+ platforms with multi-stakeholder marketplace expertise.
+---
 
-**Your brand promise:** Transforming complex business requirements into operational digital ecosystems with execution speed and operational clarity.
+## Career Trajectory
 
-**Target roles:** IT Project Manager, Project Coordinator, Product Operations, Startup Operations, Technical Coordination, AI Workflow Operations.
+- **Senior IT Project Manager & Delivery Lead** | NexG (Feb 2019 – Jun 2026)
+- **Placement Officer & Corporate Liaison** | Orion Edu Tech (Jan 2016 – Jan 2019)
+- **Operations Team Leader** | Firstsource (Feb 2012 – Nov 2015)

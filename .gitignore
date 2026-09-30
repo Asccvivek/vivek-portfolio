@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+.next/
+out/
+
+# Local scratch / helpers
+serve.py
+serve_fast.py
+verify_browser.py
+cleanup_docked_tabs.py
+
+# Large local-only assets (155MB) — keep out of git
+assets/
+linkedin/
+
+# Ephemeral tunnel URLs
+PUBLIC_WEBLINK.txt
+
+# Stale resume artifacts (superseded by website/public/resume.pdf)
+resume/Vivek_Debnath_Technical_Delivery_Lead_Resume.pdf
+resume/resume_preview.png
+resume/resume_preview_bottom.png
+
+# Legacy standalone page (superseded by website/)
+index.html
+
+# Vercel
+.vercel/
+
+# Editor
+.vscode/
+.idea/

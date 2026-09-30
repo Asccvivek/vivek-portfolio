@@ -1,6 +1,6 @@
 # VIVEK DEBNATH
 
-**IT Project Manager | Software Project Manager | Technical Project Coordinator**
+**SENIOR IT PROJECT MANAGER | SOFTWARE PROJECT MANAGER | TECHNICAL PROJECT COORDINATOR**
 
 📍 Bhopal, Madhya Pradesh, India
 📧 vivekdvnath@gmail.com
@@ -12,7 +12,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Results-oriented IT Project Manager and Software Project Manager with 6–7 years of hands-on experience leading software delivery at NexG and 12+ years of total professional experience across project coordination, team leadership, client communication, and operations. Strong background in SDLC, Agile coordination, requirement gathering, QA/UAT, release planning, and cross-functional collaboration across web and mobile products.
+Results-oriented Senior IT Project Manager and Software Project Manager with 7+ years of hands-on experience leading software delivery at Nex Gen Tech and 14+ years of total professional experience across project coordination, team leadership, client communication, and operations. Strong background in SDLC, Agile coordination, requirement gathering, QA/UAT, release planning, and cross-functional collaboration across web and mobile products.
 
 ---
 
@@ -83,11 +83,16 @@ Additional projects: Unity Greet Canvas Editor, 1 Tom Plumber, and Synergy Techn
 - Maintained detailed candidate records, placement statistics, and employer feedback logs.
 
 ### Team Leader
-**Firstsource** | Feb 2012 – Nov 2015
+**Firstsource** | Feb 2015 – Nov 2015
 - Managed a customer support team, monitored daily operations, and tracked service delivery metrics.
 - Handled escalated customer issues and implemented process improvement initiatives.
 - Conducted regular QA reviews, tracked KPIs, and provided operational status reports to managers.
 - Provided regular coaching and feedback to team members to maintain performance standards.
+
+### Team Leader
+**Hinduja Global Solutions (HGS)** | Mar 2012 – Jan 2015
+- Ran customer support on Airtel/Vodafone processes: KPI & SLA tracking, QA reviews, escalation handling and process improvement.
+- Promoted to Knowledge Network Expert within 3 months for process governance and training efficiency.
 
 ---
 

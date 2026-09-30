@@ -16,7 +16,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vivek Debnath — IT Project Manager & AI Operations Strategist",
+  title: "Vivek Debnath — Senior IT Project Manager",
   description:
     "Results-oriented IT Project Manager with experience orchestrating 13+ digital platforms, AI-assisted workflows, and marketplace architectures. Specializing in operational excellence and scalable digital ecosystems.",
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Vivek Debnath" }],
   openGraph: {
-    title: "Vivek Debnath — IT Project Manager & AI Operations Strategist",
+    title: "Vivek Debnath — Senior IT Project Manager",
     description:
       "Building operational digital ecosystems with AI-first project management across 13+ platforms.",
     type: "website",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vivek Debnath — IT Project Manager & AI Operations Strategist",
+    title: "Vivek Debnath — Senior IT Project Manager",
     description:
       "Building operational digital ecosystems with AI-first project management.",
   },
