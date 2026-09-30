@@ -16,7 +16,7 @@ Senior IT Project Manager with **14+ years of total professional experience** (i
 
 ### 1. 🍽️ [Erestro SaaS Platform](https://github.com/Asccvivek/erestro-saas-platform)
 - **Architecture**: Next.js multi-tenant restaurant management ERP powering 18 live floor tables with QR ordering, tokenized venue impersonation, KDS kitchen dispatching, granular staff permissions, and credit Khata ledger.
-- **Live Staging**: [`https://stage.erestro.in`](https://stage.erestro.in)
+- **Live**: [`https://erestro.in`](https://erestro.in)
 - **GitHub**: [`github.com/nex-gen-tech/erestro`](https://github.com/Asccvivek/erestro-saas-platform)
 
 ### 2. 📱 [FoneZone 360° E-Commerce & Ops Center](https://github.com/Asccvivek/fonezone-modern-demo)

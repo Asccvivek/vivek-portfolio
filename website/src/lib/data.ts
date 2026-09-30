@@ -298,7 +298,7 @@ export const projects: Project[] = [
       "Granular staff permission switches (Sales money, Khata, Inventory)",
       "Customer Khata credit pool ledger & 51 slow-moving item alerts",
     ],
-    liveUrl: "https://stage.erestro.in",
+    liveUrl: "https://erestro.in",
     githubUrl: "https://github.com/nex-gen-tech/erestro",
     metrics: [
       "18 Live Floor Tables",
@@ -594,7 +594,7 @@ export const caseStudies: CaseStudy[] = [
     category: "Enterprise SaaS | ERP Operations",
     industry: "Hospitality / F&B",
     role: "Delivery & Operations Lead",
-    liveUrl: "https://stage.erestro.in",
+    liveUrl: "https://erestro.in",
     githubUrl: "https://github.com/nex-gen-tech/erestro",
     challenge:
       "Restaurant operations suffer from disconnected systems — POS terminals, kitchen tickets, table reservations, staff access controls, and raw ingredient inventories fail to synchronize, causing billing leakage and order delays.",

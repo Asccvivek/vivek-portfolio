@@ -36,7 +36,7 @@
 > *Enterprise multi-tenant restaurant operations platform powering floor ordering, kitchen dispatch, and inventory valuation.*
 - **Core Features**: Multi-Tenant Platform Admin Console with tokenized venue impersonation, Real-Time Live Orders Kanban (Accepted ➔ Preparing ➔ Served ➔ Completed), Zero-Latency Kitchen Display System (KDS), Dynamic QR Floor Management (18 Live Tables), Granular Staff Access Matrix, Khata Credit Pool Ledger.
 - **Tech Stack**: Next.js, React, Node.js, WebSocket Sync, Tailwind CSS, Role-Based Access Control.
-- 🔗 **Repo**: [`github.com/Asccvivek/erestro-saas-platform`](https://github.com/Asccvivek/erestro-saas-platform) | 🌐 **Live Staging**: [`stage.erestro.in`](https://stage.erestro.in)
+- 🔗 **Repo**: [`github.com/Asccvivek/erestro-saas-platform`](https://github.com/Asccvivek/erestro-saas-platform) | 🌐 **Live**: [`erestro.in`](https://erestro.in)
 
 #### 4. ⚡ Electric Dada — Location-Based Electrical Service & Product Marketplace
 > *Multi-sided marketplace connecting consumers, certified technicians, and local electrical retail shops.*

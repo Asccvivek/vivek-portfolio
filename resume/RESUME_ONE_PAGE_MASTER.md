@@ -33,7 +33,7 @@ Senior IT Project Manager with **7+ years running software delivery at Nex Gen T
 
 Led end-to-end delivery governance for **13+ commercial web, mobile and SaaS platforms** from concept to production, coordinating distributed engineering, QA and design teams against fixed client milestones.
 
-**eRestro — Multi-tenant Restaurant SaaS / POS & ERP** *(live: stage.erestro.in)*
+**eRestro — Multi-tenant Restaurant SaaS / POS & ERP** *(live: erestro.in)*
 - Directed full-cycle delivery of QR guest ordering, multi-station KDS, waiter floor app, POS billing, recipe-level inventory auto-deduction and CRM across **18 concurrent live floor tables**.
 - Defined RBAC permission matrices, menu hierarchy and order-routing logic; coordinated bi-weekly sprints, QA cycles and production rollouts on Next.js + PostgreSQL + Drizzle.
 - Ran client requirement workshops and UAT sign-off with restaurant owners across multiple locations.

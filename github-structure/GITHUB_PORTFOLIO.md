@@ -20,7 +20,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **FoneZone** | Refurbished Tech E-Commerce | 360° Studio Turntable Hardware Inspector, Transparent Alpha Cutouts, 32-Pt Video Proof Diagnostics, Automated 2-Way WhatsApp OTP Bot, COD-to-Dispatched Operations Kanban | [Live Demo Prototype](https://fonezone-demo-live.loca.lt) | [`github.com/nexgtech-dev/fonezone`](https://github.com/Asccvivek/fonezone-modern-demo) |
 | **Happy Whites Dental** | Aesthetic Healthcare & MedTech | 60fps Pointer-Capture Smile Transformation Slider (Vita A3.5 Human Dentin Calibration), 3D Operatory Virtual Tour Modal, Instant WhatsApp Doctor Booking | [Interactive Clinic Demo](https://github.com/Asccvivek/happywhites) | [`github.com/Asccvivek/happywhites`](https://github.com/Asccvivek/happywhites) |
-| **Erestro SaaS** | Enterprise Restaurant ERP | Multi-Tenant Platform Console, 18-Table Floor QR Ordering, Tokenized Kitchen Display Screen (KDS), Granular Staff Permission Matrix, Khata Credit Pool Ledger | [Live Staging Server](https://stage.erestro.in) | [`github.com/nex-gen-tech/erestro`](https://github.com/Asccvivek/erestro-saas-platform) |
+| **Erestro SaaS** | Enterprise Restaurant ERP | Multi-Tenant Platform Console, 18-Table Floor QR Ordering, Tokenized Kitchen Display Screen (KDS), Granular Staff Permission Matrix, Khata Credit Pool Ledger | [Live Server](https://erestro.in) | [`github.com/nex-gen-tech/erestro`](https://github.com/Asccvivek/erestro-saas-platform) |
 | **Electric Dada** | Multi-Sided Marketplace | 3-Tier Dashboard Suite (Consumer, Electrician, Retail Shop Owner), Distance-Weighted Emergency Dispatch Engine, Multi-Vendor Electrical Catalog | [GitHub Architecture](https://github.com/Asccvivek) | [`github.com/asccvivek/electric-dada`](https://github.com/Asccvivek) |
 | **NexG NBFC Lending** | Fintech & Microfinance | 12-Week Delivery Roadmap, Full-Scale API Architecture (LOS/LMS), Multi-Tier Credit Underwriting Engine, Interactive Amortization Prototype | [Portfolio Case Study](https://github.com/asccvivek/vivek-portfolio) | [`github.com/asccvivek/vivek-portfolio`](https://github.com/asccvivek/vivek-portfolio) |
 | **Yaan Cab** | Mobility & Transit Logistics | Offline-First SMS/USSD Fallback Booking, 100+ Mountain Fleet Operator Database, Zero-Surge Mountain Corridor Fare Engine | [GitHub Repository](https://github.com/Asccvivek/yaan-cab) | [`github.com/Asccvivek/yaan-cab`](https://github.com/Asccvivek/yaan-cab) |
@@ -71,7 +71,7 @@
 > *Enterprise multi-tenant restaurant operations platform powering floor ordering, kitchen dispatch, and inventory valuation.*
 - **Core Features**: Multi-Tenant Platform Admin Console with tokenized venue impersonation, Real-Time Live Orders Kanban (Accepted ➔ Preparing ➔ Served ➔ Completed), Zero-Latency Kitchen Display System (KDS), Dynamic QR Floor Management (18 Live Tables), Granular Staff Access Matrix, Khata Credit Pool Ledger.
 - **Tech Stack**: Next.js, React, Node.js, WebSocket Sync, Tailwind CSS, Role-Based Access Control.
-- 🔗 **Repo**: [`github.com/nex-gen-tech/erestro`](https://github.com/Asccvivek/erestro-saas-platform) | 🌐 **Live Staging**: [`stage.erestro.in`](https://stage.erestro.in)
+- 🔗 **Repo**: [`github.com/nex-gen-tech/erestro`](https://github.com/Asccvivek/erestro-saas-platform) | 🌐 **Live**: [`erestro.in`](https://erestro.in)
 
 #### 4. ⚡ [Electric Dada — Location-Based Electrical Service & Product Marketplace](https://github.com/Asccvivek)
 > *Multi-sided marketplace connecting consumers, certified technicians, and local electrical retail shops.*
