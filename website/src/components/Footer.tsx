@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-import { siteConfig } from "@/lib/data";
+import { ArrowUpRight, Facebook, Github, Instagram, Linkedin, Phone } from "lucide-react";
+import { siteConfig, socials } from "@/lib/data";
 
 const nav = [
   { label: "Selected work", href: "/#work" },
@@ -14,10 +14,20 @@ const nav = [
 
 const connect = [
   { label: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}`, ext: false },
+  { label: "Phone", value: siteConfig.phone, href: siteConfig.phoneHref, ext: false },
   { label: "LinkedIn", value: "vivek-debnath-it", href: siteConfig.linkedin, ext: true },
   { label: "GitHub", value: "Asccvivek", href: siteConfig.github, ext: true },
+  { label: "Facebook", value: "vivek.devnth.9", href: siteConfig.facebook, ext: true },
+  { label: "Instagram", value: "viknthdev", href: siteConfig.instagram, ext: true },
   { label: "Résumé", value: "Download PDF", href: "/resume.pdf", ext: false },
 ];
+
+const socialIcons: Record<string, typeof Linkedin> = {
+  linkedin: Linkedin,
+  github: Github,
+  facebook: Facebook,
+  instagram: Instagram,
+};
 
 export function Footer() {
   return (
@@ -36,6 +46,34 @@ export function Footer() {
               <span className="h-1.5 w-1.5 rounded-full bg-secondary" />
               Available for senior PM roles
             </p>
+
+            <div className="mt-7 flex flex-wrap items-center gap-2">
+              {socials.map((s) => {
+                const Icon = socialIcons[s.key];
+                return (
+                  <a
+                    key={s.key}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${s.label} — ${s.handle}`}
+                    title={`${s.label} — ${s.handle}`}
+                    className="inline-flex h-9 w-9 items-center justify-center border border-primary/25 text-primary/70 transition-colors hover:border-secondary hover:bg-secondary hover:text-primary"
+                  >
+                    <Icon size={15} strokeWidth={1.75} />
+                  </a>
+                );
+              })}
+              <a
+                href={siteConfig.phoneHref}
+                aria-label={`Call ${siteConfig.phone}`}
+                title={siteConfig.phone}
+                className="inline-flex h-9 items-center gap-2 border border-primary/25 px-3 font-mono text-[11px] tracking-label text-primary/70 transition-colors hover:border-secondary hover:bg-secondary hover:text-primary"
+              >
+                <Phone size={13} strokeWidth={1.75} />
+                {siteConfig.phone}
+              </a>
+            </div>
           </div>
 
           <div className="md:col-span-3">

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Download, Phone } from "lucide-react";
 import { heroContent, siteConfig } from "@/lib/data";
 
 const ticker = [
@@ -79,6 +79,13 @@ export function Hero() {
                 <Download size={14} />
                 Download résumé
               </Link>
+              <a
+                href={siteConfig.phoneHref}
+                className="group inline-flex items-center gap-2 border-b border-ink pb-1 font-mono text-[11px] uppercase tracking-label text-ink hover:border-secondary hover:text-secondary"
+              >
+                <Phone size={14} />
+                {siteConfig.phone}
+              </a>
             </motion.div>
 
             {/* previous roles */}
@@ -111,7 +118,7 @@ export function Hero() {
                 alt={`${siteConfig.name} — ${siteConfig.title}`}
                 fill
                 priority
-                sizes="(max-width: 1024px) 90vw, 34vw"
+                sizes="(max-width: 1024px) 130vw, 46vw"
                 className="object-cover object-top grayscale-[0.15] transition-all duration-700 hover:grayscale-0"
               />
               <span className="absolute left-0 top-0 bg-secondary px-2.5 py-1.5 font-mono text-[10px] uppercase tracking-label text-primary">

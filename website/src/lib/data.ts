@@ -3,10 +3,36 @@ export const siteConfig = {
   title: "Senior IT Project Manager",
   location: "Bhopal, India",
   email: "vivekdvnath@gmail.com",
+  phone: "+91 93942 42828",
+  phoneHref: "tel:+919394242828",
   linkedin: "https://www.linkedin.com/in/vivek-debnath-it",
   github: "https://github.com/Asccvivek",
+  facebook: "https://www.facebook.com/vivek.devnth.9",
+  instagram: "https://www.instagram.com/viknthdev",
   resumeUrl: "/resume.pdf",
 };
+
+export const socials = [
+  {
+    key: "linkedin",
+    label: "LinkedIn",
+    handle: "vivek-debnath-it",
+    href: "https://www.linkedin.com/in/vivek-debnath-it",
+  },
+  { key: "github", label: "GitHub", handle: "Asccvivek", href: "https://github.com/Asccvivek" },
+  {
+    key: "facebook",
+    label: "Facebook",
+    handle: "vivek.devnth.9",
+    href: "https://www.facebook.com/vivek.devnth.9",
+  },
+  {
+    key: "instagram",
+    label: "Instagram",
+    handle: "viknthdev",
+    href: "https://www.instagram.com/viknthdev",
+  },
+];
 
 export const heroContent = {
   headline: "I Build Digital Ecosystems That Scale.",

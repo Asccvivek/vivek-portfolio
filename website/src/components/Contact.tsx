@@ -21,8 +21,11 @@ export function Contact() {
 
   const links = [
     { label: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}`, ext: false },
+    { label: "Phone", value: siteConfig.phone, href: siteConfig.phoneHref, ext: false },
     { label: "LinkedIn", value: "vivek-debnath-it", href: siteConfig.linkedin, ext: true },
     { label: "GitHub", value: "Asccvivek", href: siteConfig.github, ext: true },
+    { label: "Facebook", value: "vivek.devnth.9", href: siteConfig.facebook, ext: true },
+    { label: "Instagram", value: "viknthdev", href: siteConfig.instagram, ext: true },
     { label: "Location", value: siteConfig.location, href: "", ext: false },
   ];
 
