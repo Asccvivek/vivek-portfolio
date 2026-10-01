@@ -13,7 +13,11 @@ export const brands: Record<string, Brand> = {
     accent: "#20a0e0",
     monogram: "FZ",
   },
-  "happy-whites": { accent: "#38bdf8", monogram: "HW" },
+  "happy-whites": {
+    logo: "/logos/happywhites.png",
+    accent: "#38bdf8",
+    monogram: "HW",
+  },
   erestro: {
     logo: "/logos/erestro.png",
     accent: "#e04010",
@@ -22,7 +26,11 @@ export const brands: Record<string, Brand> = {
   "electric-dada": { accent: "#f59e0b", monogram: "ED" },
   "loan-platform": { accent: "#8b5cf6", monogram: "NB" },
   "yaan-cab": { accent: "#10b981", monogram: "YC" },
-  "ai-career-os": { accent: "#ec4899", monogram: "AI" },
+  "ai-career-os": {
+    logo: "/logos/aicareeros.png",
+    accent: "#ec4899",
+    monogram: "AI",
+  },
   "client-blueprints": { accent: "#0ea5e9", monogram: "EB" },
   salonix: { accent: "#f43f5e", monogram: "SX" },
   homecare: { accent: "#14b8a6", monogram: "HC" },
