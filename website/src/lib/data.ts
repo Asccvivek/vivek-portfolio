@@ -9,6 +9,7 @@ export const siteConfig = {
   github: "https://github.com/Asccvivek",
   facebook: "https://www.facebook.com/vivek.devnth.9",
   instagram: "https://www.instagram.com/viknthdev",
+  twitter: "https://x.com/VivekDvnath",
   resumeUrl: "/resume.pdf",
 };
 
@@ -32,6 +33,7 @@ export const socials = [
     handle: "viknthdev",
     href: "https://www.instagram.com/viknthdev",
   },
+  { key: "twitter", label: "X", handle: "VivekDvnath", href: "https://x.com/VivekDvnath" },
 ];
 
 export const heroContent = {

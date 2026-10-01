@@ -26,6 +26,7 @@ export function Contact() {
     { label: "GitHub", value: "Asccvivek", href: siteConfig.github, ext: true },
     { label: "Facebook", value: "vivek.devnth.9", href: siteConfig.facebook, ext: true },
     { label: "Instagram", value: "viknthdev", href: siteConfig.instagram, ext: true },
+    { label: "X", value: "VivekDvnath", href: siteConfig.twitter, ext: true },
     { label: "Location", value: siteConfig.location, href: "", ext: false },
   ];
 

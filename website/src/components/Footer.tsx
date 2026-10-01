@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUpRight, Facebook, Github, Instagram, Linkedin, Phone } from "lucide-react";
+import { ArrowUpRight, Facebook, Github, Instagram, Linkedin, Phone, Twitter } from "lucide-react";
 import { siteConfig, socials } from "@/lib/data";
 
 const nav = [
@@ -19,6 +19,7 @@ const connect = [
   { label: "GitHub", value: "Asccvivek", href: siteConfig.github, ext: true },
   { label: "Facebook", value: "vivek.devnth.9", href: siteConfig.facebook, ext: true },
   { label: "Instagram", value: "viknthdev", href: siteConfig.instagram, ext: true },
+  { label: "X", value: "VivekDvnath", href: siteConfig.twitter, ext: true },
   { label: "Résumé", value: "Download PDF", href: "/resume.pdf", ext: false },
 ];
 
@@ -27,6 +28,7 @@ const socialIcons: Record<string, typeof Linkedin> = {
   github: Github,
   facebook: Facebook,
   instagram: Instagram,
+  twitter: Twitter,
 };
 
 export function Footer() {
