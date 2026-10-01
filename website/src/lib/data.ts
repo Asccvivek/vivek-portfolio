@@ -229,9 +229,8 @@ export const projects: Project[] = [
       "Automated 2-way WhatsApp OTP customer verification bot",
       "Real-time COD-to-Dispatched 4-stage Operations Kanban board",
     ],
-    liveUrl: "https://fonezone-demo-live.loca.lt",
+    liveUrl: "https://nexgtech-dev.github.io/fonezone/",
     githubUrl: "https://github.com/nexgtech-dev/fonezone",
-    demoUrl: "/demos/fonezone-modern-demo",
     metrics: [
       "₹13.3L/yr RTO Savings",
       "360° Turntable Physics",
@@ -263,9 +262,8 @@ export const projects: Project[] = [
       "Virtual Clinic Tour modal with ambient operatory background",
       "Instant WhatsApp specialist consultation booking engine",
     ],
-    liveUrl: "https://github.com/Asccvivek/happywhites",
+    liveUrl: "https://asccvivek.github.io/happywhites/",
     githubUrl: "https://github.com/Asccvivek/happywhites",
-    demoUrl: "/demos/happy-whites-dental",
     metrics: [
       "60fps Pointer Capture",
       "100% Seam-Free Alignment",
@@ -299,7 +297,7 @@ export const projects: Project[] = [
       "Customer Khata credit pool ledger & 51 slow-moving item alerts",
     ],
     liveUrl: "https://erestro.in",
-    githubUrl: "https://github.com/nex-gen-tech/erestro",
+    githubUrl: "https://github.com/Asccvivek/erestro-saas-platform",
     metrics: [
       "18 Live Floor Tables",
       "Zero-Latency KDS Tickets",
@@ -330,8 +328,6 @@ export const projects: Project[] = [
       "Automated delivery charge calculation based on distance and weight",
       "Admin marketplace health oversight and commission disbursement",
     ],
-    liveUrl: "https://github.com/asccvivek/electric-dada",
-    githubUrl: "https://github.com/asccvivek/electric-dada",
     metrics: [
       "3-Tier Dashboard Suite",
       "Real-Time Location Dispatch",
@@ -362,8 +358,7 @@ export const projects: Project[] = [
       "Interactive borrower loan calculator & EMI amortization prototype",
       "Executive pitch deck and technical blueprint suite",
     ],
-    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
-    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
+    githubUrl: "https://github.com/Asccvivek/nbfc-digital-lending-platform",
     metrics: [
       "12-Week Delivery Blueprint",
       "Multi-Tier Underwriting",
@@ -393,7 +388,7 @@ export const projects: Project[] = [
       "Fixed mountain corridor fare calculation engine (no surge exploitation)",
       "Driver onboarding and route compliance monitoring system",
     ],
-    liveUrl: "https://github.com/Asccvivek/yaan-cab",
+    liveUrl: "https://asccvivek.github.io/yaan-cab/",
     githubUrl: "https://github.com/Asccvivek/yaan-cab",
     metrics: [
       "Offline-First Architecture",
@@ -424,7 +419,6 @@ export const projects: Project[] = [
       "Automated email staging engine with isolated session tabs",
       "Multi-source enterprise intelligence crawler and candidate telemetry",
     ],
-    liveUrl: "https://github.com/Asccvivek/ai-career-os",
     githubUrl: "https://github.com/Asccvivek/ai-career-os",
     metrics: [
       "Turborepo Architecture",
@@ -455,8 +449,7 @@ export const projects: Project[] = [
       "60-Day In-House Engineering Roadmaps with measurable ROI calculations",
       "Automated headless rendering to vector PDF and high-res retina PNG",
     ],
-    liveUrl: "https://github.com/nex-gen-tech/nexg",
-    githubUrl: "https://github.com/nex-gen-tech/nexg",
+    githubUrl: "https://github.com/Asccvivek/enterprise-systems-blueprints",
     metrics: [
       "50+ Enterprise Blueprints",
       "Vector PDF/PNG Generator",
@@ -480,8 +473,6 @@ export const projects: Project[] = [
       "Customer Flow",
       "Salon Workflows",
     ],
-    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
-    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
     metrics: ["Real-Time Booking", "Optimized Flow"],
     featured: false,
   },
@@ -501,8 +492,6 @@ export const projects: Project[] = [
       "Service Coordination",
       "Quality Assurance",
     ],
-    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
-    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
     metrics: ["Provider Verification", "Compliance Tracking"],
     featured: false,
   },
@@ -531,7 +520,7 @@ export const caseStudies: CaseStudy[] = [
     category: "E-Commerce | Operations Systems",
     industry: "Consumer Tech / Refurbished Electronics",
     role: "Technical Project Manager",
-    liveUrl: "https://fonezone-demo-live.loca.lt",
+    liveUrl: "https://nexgtech-dev.github.io/fonezone/",
     githubUrl: "https://github.com/nexgtech-dev/fonezone",
     challenge:
       "The refurbished smartphone and electronics market suffers from severe customer distrust, resulting in 30%+ Cash-on-Delivery (COD) Return-to-Origin (RTO) rates. Static product photography failed to reveal true device cosmetic condition, and operations lacked a structured triage queue for unverified orders.",
@@ -563,7 +552,7 @@ export const caseStudies: CaseStudy[] = [
     category: "Healthcare UX | Clinical Conversion",
     industry: "Aesthetic Dentistry / MedTech",
     role: "Product & Delivery Lead",
-    liveUrl: "https://github.com/Asccvivek/happywhites",
+    liveUrl: "https://asccvivek.github.io/happywhites/",
     githubUrl: "https://github.com/Asccvivek/happywhites",
     challenge:
       "Cosmetic dental clinics struggle to communicate smile makeover results effectively. Generic before/after image galleries with poor lighting or artificial AI smudges create patient skepticism and high bounce rates on high-ticket aligner and veneer treatments.",
@@ -595,7 +584,7 @@ export const caseStudies: CaseStudy[] = [
     industry: "Hospitality / F&B",
     role: "Delivery & Operations Lead",
     liveUrl: "https://erestro.in",
-    githubUrl: "https://github.com/nex-gen-tech/erestro",
+    githubUrl: "https://github.com/Asccvivek/erestro-saas-platform",
     challenge:
       "Restaurant operations suffer from disconnected systems — POS terminals, kitchen tickets, table reservations, staff access controls, and raw ingredient inventories fail to synchronize, causing billing leakage and order delays.",
     approach: [
@@ -626,8 +615,6 @@ export const caseStudies: CaseStudy[] = [
     category: "Service Marketplace | Multi-Vendor Platform",
     industry: "Home Services / Electrical",
     role: "Product & Operations Lead",
-    liveUrl: "https://github.com/asccvivek/electric-dada",
-    githubUrl: "https://github.com/asccvivek/electric-dada",
     challenge:
       "The electrical services industry operates in a fragmented manner — consumers struggle to find certified electricians, local retail shops lack digital storefronts, and service providers have no structured platform for dispatch and billing.",
     approach: [
@@ -656,8 +643,7 @@ export const caseStudies: CaseStudy[] = [
     category: "Fintech | Lending Architecture",
     industry: "Financial Services / NBFC",
     role: "Senior Technical Project Manager",
-    liveUrl: "https://github.com/asccvivek/vivek-portfolio",
-    githubUrl: "https://github.com/asccvivek/vivek-portfolio",
+    githubUrl: "https://github.com/Asccvivek/nbfc-digital-lending-platform",
     challenge:
       "Traditional NBFC lending processes are plagued by manual paperwork, slow underwriting cycles (5–7 days), and fragmented verification systems that increase operational overhead and default risk.",
     approach: [
@@ -686,7 +672,7 @@ export const caseStudies: CaseStudy[] = [
     category: "Mobility Platform | Transit Architecture",
     industry: "Transportation / Rural Mobility",
     role: "Product Strategist & Planner",
-    liveUrl: "https://github.com/Asccvivek/yaan-cab",
+    liveUrl: "https://asccvivek.github.io/yaan-cab/",
     githubUrl: "https://github.com/Asccvivek/yaan-cab",
     challenge:
       "Mountain and hill station transit routes suffer from unpredictable mobile connectivity, exploitative surge pricing by unorganized operators, and a lack of centralized tourist cab dispatching.",
@@ -716,7 +702,6 @@ export const caseStudies: CaseStudy[] = [
     category: "AI Systems | Workflow Automation",
     industry: "Productivity / AI Engineering",
     role: "Delivery Lead",
-    liveUrl: "https://github.com/Asccvivek/ai-career-os",
     githubUrl: "https://github.com/Asccvivek/ai-career-os",
     challenge:
       "High-volume job searching and enterprise B2B outreach suffer from email deliverability failures, generic spam templates, disconnected tracking sheets, and manual follow-up fatigue.",
@@ -746,8 +731,7 @@ export const caseStudies: CaseStudy[] = [
     category: "Enterprise Systems | Industrial IoT",
     industry: "Logistics, Manufacturing & Supply Chain",
     role: "Senior Technical Project Manager",
-    liveUrl: "https://github.com/nex-gen-tech/nexg",
-    githubUrl: "https://github.com/nex-gen-tech/nexg",
+    githubUrl: "https://github.com/Asccvivek/enterprise-systems-blueprints",
     challenge:
       "Traditional Indian manufacturing and logistics enterprises operate on siloed legacy ERPs and manual paper PODs, causing cash flow friction, delivery dispute delays, and cold chain spoilage.",
     approach: [
