@@ -2,151 +2,110 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, Github, ExternalLink, Sparkles } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { SectionHeading, FadeIn } from "./SectionHeading";
 import { projects } from "@/lib/data";
 import { brandFor } from "@/lib/brands";
 
 export function Projects() {
   return (
-    <section id="projects" className="section-padding bg-surface/30">
+    <section id="work" className="section-padding">
       <div className="container-max">
         <SectionHeading
-          label="Portfolio & Live Systems"
-          title="Platforms I've Built & Coordinated"
-          description="13+ production ecosystems across Refurbished E-Commerce, Enterprise SaaS ERP, Dental Healthcare UX, Mobility, and AI Automation."
+          label="Selected work — 01"
+          title="Platforms I've built & coordinated"
+          description="13+ production ecosystems across refurbished e-commerce, enterprise SaaS ERP, dental healthcare, mobility and AI automation."
         />
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="border-t border-line">
           {projects.map((project, i) => {
             const brand = brandFor(project.slug);
+            const n = String(i + 1).padStart(2, "0");
             return (
-            <FadeIn key={project.slug} delay={i * 0.06}>
-              <div className="glass-card group relative flex h-full flex-col overflow-hidden p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/30 hover:shadow-xl hover:shadow-secondary/5">
-                {/* Brand accent bar */}
-                <span
-                  aria-hidden
-                  className="absolute inset-x-0 top-0 h-0.5 origin-left scale-x-0 transition-transform duration-500 group-hover:scale-x-100"
-                  style={{ background: `linear-gradient(90deg, ${brand.accent}, transparent)` }}
-                />
+              <FadeIn key={project.slug} delay={i * 0.04}>
+                <Link
+                  href={`/case-studies#${project.slug}`}
+                  className="group relative block border-b border-line"
+                >
+                  <div className="grid grid-cols-[2.5rem_1fr_auto] items-center gap-x-4 gap-y-1 px-1 py-6 transition-colors duration-300 group-hover:bg-ink md:grid-cols-[3.5rem_3.5rem_1fr_14rem_3rem] md:gap-x-6 md:py-7">
+                    <span className="self-start font-mono text-[11px] tracking-label text-text-secondary transition-colors group-hover:text-secondary md:self-center">
+                      {n}
+                    </span>
 
-                {/* Brand tile + badges */}
-                <div className="mb-5 flex items-start justify-between gap-3">
-                  <span
-                    className="relative flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl border"
-                    style={{
-                      borderColor: `${brand.accent}40`,
-                      background: `radial-gradient(circle at 30% 25%, ${brand.accent}33, rgba(2,6,23,0.65))`,
-                      boxShadow: `0 8px 24px -12px ${brand.accent}`,
-                    }}
-                  >
-                    {brand.logo ? (
-                      <Image
-                        src={brand.logo}
-                        alt={`${project.title} logo`}
-                        fill
-                        sizes="48px"
-                        className="object-contain p-2"
-                      />
-                    ) : (
-                      <span
-                        className="font-heading text-sm font-bold"
-                        style={{ color: brand.accent }}
-                      >
-                        {brand.monogram}
+                    <span
+                      className="hidden h-11 w-11 shrink-0 items-center justify-center overflow-hidden border md:flex"
+                      style={{
+                        borderColor: `${brand.accent}55`,
+                        background: `radial-gradient(circle at 30% 25%, ${brand.accent}26, rgba(20,18,15,0.04))`,
+                      }}
+                    >
+                      {brand.logo ? (
+                        <Image
+                          src={brand.logo}
+                          alt={`${project.title} mark`}
+                          width={44}
+                          height={44}
+                          className="h-full w-full object-contain p-1.5"
+                        />
+                      ) : (
+                        <span
+                          className="font-heading text-[13px] font-bold"
+                          style={{ color: brand.accent }}
+                        >
+                          {brand.monogram}
+                        </span>
+                      )}
+                    </span>
+
+                    <span className="min-w-0">
+                      <span className="block font-heading text-xl font-semibold leading-tight text-ink transition-colors group-hover:text-primary md:text-[26px]">
+                        {project.title}
                       </span>
-                    )}
-                  </span>
+                      <span className="mt-1 block truncate text-[13px] text-text-secondary transition-colors group-hover:text-primary/70">
+                        {project.subtitle}
+                      </span>
+                    </span>
 
-                  <div className="flex flex-wrap items-center justify-end gap-2">
-                    <span className="inline-block rounded-full bg-secondary/10 px-3 py-1 font-mono text-xs font-medium text-secondary">
+                    <span className="hidden font-mono text-[10px] uppercase tracking-label text-text-secondary transition-colors group-hover:text-primary/70 md:block">
                       {project.category}
                     </span>
-                    {project.featured && (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-accent/15 px-2.5 py-0.5 font-mono text-[11px] font-semibold text-accent">
-                        <Sparkles size={11} /> Featured
-                      </span>
-                    )}
-                  </div>
-                </div>
 
-                <h3 className="mb-1 font-heading text-lg font-semibold text-white transition-colors group-hover:text-secondary">
-                  {project.title}
-                </h3>
-                <p className="mb-3 text-xs font-medium text-accent leading-snug">
-                  {project.subtitle}
-                </p>
-                <p className="mb-4 flex-1 text-sm leading-relaxed text-text-secondary">
-                  {project.description}
-                </p>
-
-                {/* Metrics Pills */}
-                {project.metrics && (
-                  <div className="mb-4 flex flex-wrap gap-1.5 border-t border-b border-white/5 py-2.5">
-                    {project.metrics.map((m) => (
-                      <span
-                        key={m}
-                        className="rounded bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 text-[11px] font-medium text-emerald-400"
-                      >
-                        ✓ {m}
-                      </span>
-                    ))}
-                  </div>
-                )}
-
-                {/* Tags */}
-                <div className="mb-5 flex flex-wrap gap-1.5">
-                  {project.tags.slice(0, 3).map((tag) => (
-                    <span
-                      key={tag}
-                      className="rounded border border-white/5 bg-primary/80 px-2 py-1 text-[11px] text-text-secondary"
-                    >
-                      {tag}
+                    <span className="flex items-center justify-end gap-3 text-text-secondary transition-colors group-hover:text-secondary">
+                      <ArrowUpRight
+                        size={20}
+                        className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                      />
                     </span>
-                  ))}
-                </div>
-
-                {/* Action Links */}
-                <div className="mt-auto flex items-center justify-between border-t border-white/5 pt-4">
-                  <Link
-                    href={`/case-studies#${project.slug}`}
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-secondary transition-colors hover:text-accent"
-                  >
-                    Case Study
-                    <ArrowUpRight size={13} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </Link>
-
-                  <div className="flex items-center gap-3">
-                    {project.githubUrl && (
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 rounded bg-white/5 px-2.5 py-1 text-xs font-medium text-text-secondary hover:bg-white/10 hover:text-white transition-colors"
-                        title="View GitHub Repository"
-                      >
-                        <Github size={12} />
-                        <span>Code</span>
-                      </a>
-                    )}
-                    {project.liveUrl && (
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 rounded bg-secondary/15 px-2.5 py-1 text-xs font-semibold text-secondary hover:bg-secondary/25 transition-colors"
-                        title="View Live URL / Demo"
-                      >
-                        <ExternalLink size={12} />
-                        <span>Live</span>
-                      </a>
-                    )}
                   </div>
-                </div>
-              </div>
-            </FadeIn>
+
+                  {/* metric strip revealed on hover (desktop) */}
+                  {project.metrics && project.metrics.length > 0 && (
+                    <div className="hidden overflow-hidden bg-ink transition-all duration-300 max-h-0 group-hover:max-h-24 md:block">
+                      <div className="flex flex-wrap gap-x-6 gap-y-1 px-1 pb-5 pl-[5.5rem] pt-0 font-mono text-[10px] uppercase tracking-label text-primary/70">
+                        {project.metrics.slice(0, 3).map((m) => (
+                          <span key={m} className="text-secondary">
+                            {m}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </Link>
+              </FadeIn>
             );
           })}
+        </div>
+
+        <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
+          <p className="font-mono text-[11px] uppercase tracking-label text-text-secondary">
+            {projects.length} entries · full case studies inside
+          </p>
+          <Link
+            href="/projects"
+            className="link-underline font-mono text-[11px] uppercase tracking-label text-ink hover:text-secondary"
+          >
+            View all projects →
+          </Link>
         </div>
       </div>
     </section>

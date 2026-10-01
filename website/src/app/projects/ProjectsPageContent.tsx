@@ -37,7 +37,7 @@ export function ProjectsPageContent() {
           <div className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-3.5 py-1.5 font-mono text-xs font-semibold text-secondary mb-3">
             <Sparkles size={13} /> Production Portfolio & Codebases
           </div>
-          <h1 className="font-heading text-4xl font-bold md:text-5xl text-white">
+          <h1 className="font-heading text-4xl font-bold md:text-5xl text-ink">
             Platforms I&apos;ve Built & Coordinated
           </h1>
           <p className="mt-4 max-w-3xl text-text-secondary text-base leading-relaxed">
@@ -54,7 +54,7 @@ export function ProjectsPageContent() {
               className={`rounded-full px-4 py-1.5 text-xs font-medium transition-all ${
                 activeCategory === cat
                   ? "bg-secondary text-primary font-semibold shadow-md shadow-secondary/20"
-                  : "bg-surface/60 text-text-secondary hover:bg-surface hover:text-white border border-white/5"
+                  : "bg-surface/60 text-text-secondary hover:bg-surface hover:text-ink border border-line"
               }`}
             >
               {cat}
@@ -65,7 +65,7 @@ export function ProjectsPageContent() {
         <div className="grid gap-8 md:grid-cols-2">
           {filteredProjects.map((project, i) => (
             <FadeIn key={project.slug} delay={i * 0.05}>
-              <div className="glass-card group flex h-full flex-col p-8 transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/30 hover:shadow-2xl">
+              <div className="border border-line group flex h-full flex-col p-8 transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/30 hover:shadow-2xl">
                 <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
                   <div className="flex items-center gap-2">
                     <span className="rounded-full bg-secondary/10 px-3 py-1 font-mono text-xs font-medium text-secondary">
@@ -82,12 +82,12 @@ export function ProjectsPageContent() {
                   )}
                 </div>
 
-                <h2 className="mb-1 font-heading text-2xl font-bold text-white group-hover:text-secondary transition-colors">
+                <h2 className="mb-1 font-heading text-2xl font-bold text-ink group-hover:text-secondary transition-colors">
                   {project.title}
                 </h2>
                 <p className="mb-2 text-sm font-medium text-accent">{project.subtitle}</p>
                 <p className="mb-2 font-mono text-xs text-text-secondary">
-                  Role: <span className="text-white font-medium">{project.role}</span>
+                  Role: <span className="text-ink font-medium">{project.role}</span>
                 </p>
                 <p className="mb-4 flex-1 text-sm leading-relaxed text-text-secondary">
                   {project.description}
@@ -95,7 +95,7 @@ export function ProjectsPageContent() {
 
                 {/* Key Features */}
                 {project.features && (
-                  <div className="mb-4 rounded-lg bg-surface/50 p-3 border border-white/5">
+                  <div className="mb-4 rounded-lg bg-surface/50 p-3 border border-line">
                     <p className="font-mono text-[11px] uppercase tracking-wider text-text-muted mb-2">Key System Capabilities:</p>
                     <ul className="space-y-1">
                       {project.features.slice(0, 3).map((feat, idx) => (
@@ -127,7 +127,7 @@ export function ProjectsPageContent() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded border border-white/5 bg-primary/80 px-2.5 py-1 text-[11px] text-text-secondary"
+                      className="rounded border border-line bg-primary/80 px-2.5 py-1 text-[11px] text-text-secondary"
                     >
                       {tag}
                     </span>
@@ -135,7 +135,7 @@ export function ProjectsPageContent() {
                 </div>
 
                 {/* Action Links */}
-                <div className="mt-auto flex items-center justify-between border-t border-white/5 pt-4">
+                <div className="mt-auto flex items-center justify-between border-t border-line pt-4">
                   <Link
                     href={`/case-studies#${project.slug}`}
                     className="inline-flex items-center gap-1 text-sm font-semibold text-secondary transition-colors hover:text-accent"
@@ -150,7 +150,7 @@ export function ProjectsPageContent() {
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-text-secondary hover:bg-white/10 hover:text-white transition-colors"
+                        className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-white/5 px-3 py-1.5 text-xs font-medium text-text-secondary hover:bg-white/10 hover:text-ink transition-colors"
                       >
                         <Github size={13} />
                         <span>GitHub</span>

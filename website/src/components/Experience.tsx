@@ -2,52 +2,53 @@
 
 import { SectionHeading, FadeIn } from "./SectionHeading";
 import { experience } from "@/lib/data";
-import { Briefcase } from "lucide-react";
 
 export function Experience() {
   return (
-    <section id="experience" className="section-padding">
+    <section id="experience" className="section-padding bg-surface">
       <div className="container-max">
         <SectionHeading
-          label="Experience"
-          title="Professional Journey"
-          description="Driving operational excellence across multi-platform digital ecosystems."
+          label="Experience — 02"
+          title="Professional journey"
+          description="Fourteen years across BPO operations, campus placements and product delivery — the last seven leading engineering output at NexG."
         />
 
-        <div className="mx-auto max-w-3xl">
+        <div className="border-t border-line">
           {experience.map((exp, i) => (
-            <FadeIn key={i} delay={i * 0.1}>
-              <div className="relative border-l-2 border-secondary/30 pl-8 pb-12 last:pb-0">
-                {/* Timeline dot */}
-                <div className="absolute -left-[13px] top-0 flex h-6 w-6 items-center justify-center rounded-full border-2 border-secondary bg-primary">
-                  <Briefcase size={12} className="text-secondary" />
+            <FadeIn key={i} delay={i * 0.06}>
+              <article className="grid gap-4 border-b border-line py-8 md:grid-cols-12 md:gap-8 md:py-10">
+                <div className="md:col-span-3">
+                  <p className="font-mono text-[11px] uppercase tracking-label text-secondary">
+                    {exp.period}
+                  </p>
+                  <p className="mt-2 font-mono text-[11px] uppercase tracking-label text-text-secondary">
+                    {exp.location}
+                  </p>
                 </div>
 
-                <div className="mb-2 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-                  <h3 className="font-heading text-lg font-semibold text-white">
+                <div className="md:col-span-9">
+                  <h3 className="display text-2xl text-ink md:text-[2rem]">
                     {exp.role}
                   </h3>
-                  <span className="font-mono text-xs text-accent">
-                    {exp.period}
-                  </span>
+                  <p className="mt-1.5 text-[15px] text-text-secondary">
+                    {exp.company}
+                  </p>
+
+                  {exp.achievements?.length > 0 && (
+                    <ul className="mt-5 grid gap-2.5 sm:grid-cols-2 sm:gap-x-8">
+                      {exp.achievements.map((item, j) => (
+                        <li
+                          key={j}
+                          className="flex gap-3 text-[14px] leading-relaxed text-text-secondary"
+                        >
+                          <span className="mt-[0.55rem] h-1 w-1 shrink-0 bg-secondary" />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
-
-                <p className="mb-4 text-sm text-text-secondary">
-                  {exp.company} • {exp.location}
-                </p>
-
-                <ul className="space-y-2">
-                  {exp.achievements.map((item, j) => (
-                    <li
-                      key={j}
-                      className="flex items-start gap-3 text-sm text-text-secondary"
-                    >
-                      <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-secondary/60" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              </article>
             </FadeIn>
           ))}
         </div>
