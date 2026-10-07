@@ -38,7 +38,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
             <p className="font-mono text-[11px] uppercase tracking-label text-primary/50">
-              Senior IT Project Manager
+              Technical Delivery Manager
             </p>
             <p className="mt-4 max-w-[34ch] text-[15px] leading-relaxed text-primary/70">
               Building digital ecosystems that scale — across restaurant ERP,

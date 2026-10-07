@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Vivek Debnath",
-  title: "Senior IT Project Manager",
+  title: "Technical Delivery Manager",
   location: "Bhopal, India",
   email: "vivekdvnath@gmail.com",
   phone: "+91 93942 42828",
@@ -37,22 +37,22 @@ export const socials = [
 ];
 
 export const heroContent = {
-  headline: "I Build Digital Ecosystems That Scale.",
+  headline: "I Scope It. I Build It. I Ship It.",
   subheadline:
-    "Senior IT Project Manager & Software Project Manager — leading delivery across restaurant POS/ERP, HRMS, healthcare, on-demand marketplaces and AI products with live URLs, verifiable codebases, and measured outcomes.",
+    "Technical Delivery Manager & Solutions Engineer — I take a business problem from scoping and commercial proposal through architecture, hands-on build, QA and production launch. 14+ years, 13+ platforms shipped across POS/ERP, HRMS, healthcare, marketplaces and AI.",
   stats: [
     { value: "14+", label: "Years Experience" },
     { value: "13+", label: "Platforms Shipped" },
     { value: "7+", label: "Years at NexG" },
-    { value: "AI-First", label: "Delivery Workflows" },
+    { value: "Scope→Ship", label: "End-to-End Delivery" },
   ],
 };
 
 export const aboutContent = {
   intro:
-    "I'm Vivek Debnath — a Senior IT Project Manager based in Bhopal, India. I turn complex operational and business requirements into production-ready digital products.",
+    "I'm Vivek Debnath — a Technical Delivery Manager and Solutions Engineer based in Bhopal, India. I take a business problem from scope and proposal to a running product.",
   description:
-    "Across my career I've led delivery of 13+ commercial platforms — multi-tenant restaurant POS/ERP, enterprise HRMS & payroll, healthcare home-service, field-force CRM, on-demand marketplaces and AI products — owning the full path from requirement gathering and PRD through sprint planning and QA/UAT to production release.",
+    "Most people are either a PM who can't build, or a builder who can't run a client. I do both as one motion: write the commercial proposal and project charter, define the architecture, build my share of the modules, run QA/UAT, then hand over a live system. At NexG I led delivery of 13+ commercial platforms; independently I've scoped and delivered client engagements from a ₹1.5L TradePartner OS proposal to a 10-module WAFID Chrome extension and a 60-day in-house IT roadmap for a logistics enterprise.",
   principles: [
     {
       title: "Systems Thinking & Architecture",
@@ -779,6 +779,99 @@ export const caseStudies: CaseStudy[] = [
       "Supply Chain ERP",
       "Visual Systems Design",
       "Vector PDF Engine",
+    ],
+  },
+  {
+    slug: "wafid-automation",
+    title: "WAFID Automated Booking Extension",
+    subtitle: "10-Module Chrome MV3 Extension — Scoped, Sold and Built",
+    category: "Solution-to-Delivery | Client Engagement",
+    industry: "Healthcare / Travel Mobility",
+    role: "Project Manager & Technical Contributor (Client-Facing Lead)",
+    challenge:
+      "WAFID medical screening appointments in Bangladesh are booked through a slow, manual, captcha-gated portal. Clinics fill up within minutes of release, so a manpower exporter loses placements to whoever happens to refresh fastest. The client needed an automated booking system — and needed someone who could scope it, price it, and build it, not just document it.",
+    approach: [
+      "Wrote the internal project charter: governance, 10-module architecture, 5/5 build split, JSON interface contracts so two engineers could code in parallel without blocking",
+      "Owned the client relationship end-to-end — requirements, commercial terms, milestone communication and delivery coordination",
+      "Built modules 1–5: extension foundation and side-panel UI, candidate record store with JSON schema validation, clinic matching using Haversine proximity rules, a queue engine with cooldown/retry state machine, and an operational dashboard with CSV export",
+      "Defined the Candidate Record Schema as the shared contract between my modules and the automation engineer's OCR/form-injection modules",
+      "Structured the commercial deal: $750 setup plus $450/month maintenance, split 50/50, with expansion scope pre-agreed"
+    ],
+    outcomes: [
+      "Closed a paid international engagement (Bangladesh) — proposal to signed commercial terms",
+      "Shipped a production Chrome Manifest V3 extension across 10 interlocking modules",
+      "Delivered candidate CRUD, geo-based clinic matching, queue scheduling with retry/cooldown states, and an audit-trail dashboard with CSV reporting",
+      "Established a recurring $450/month maintenance retainer for selector and Cloudflare upkeep"
+    ],
+    skills: [
+      "Chrome Manifest V3",
+      "Solution Selling",
+      "Project Chartering",
+      "State Machines",
+      "IndexedDB",
+      "Haversine Geolocation",
+      "Client-Facing Delivery",
+    ],
+  },
+  {
+    slug: "tradepartner-os",
+    title: "TradePartner OS",
+    subtitle: "₹1.5L Commercial Proposal — Ledger, Stock & Partner System",
+    category: "Pre-Sales | Solution Design",
+    industry: "Trading / Distribution / SME",
+    role: "Solution Designer & Commercial Author",
+    challenge:
+      "A trading business run by multiple partners was tracking stock, purchases, sales, customer collections, supplier dues, expenses and partner withdrawals across separate paper notebooks. Nobody had a single shared truth, and partners could see records they had no business seeing. They needed one mobile-first system with per-partner permissions, audit history and reporting.",
+    approach: [
+      "Authored the full commercial proposal: scope, phased delivery, pricing, milestone payment schedule and AI feature boundaries",
+      "Designed the module scope — product catalogue, inventory movement, supplier purchases with partial payments, partner-wise sales and running ledgers, delivery expenses, partner withdrawals and audit history",
+      "Specified the permission model so each partner sees only their permitted records while the admin gets full visibility, correction controls and audit trail",
+      "Defined the AI boundary explicitly: label and receipt scanning prepare drafts for human confirmation, never auto-post stock or money; 2,000 pooled AI credits per month",
+      "Structured commercials at ₹1,50,000 implementation + ₹22,000/month on an 18-month term, 6–8 week delivery, 50/30/20 milestone billing"
+    ],
+    outcomes: [
+      "Produced a complete, priced, client-ready commercial proposal under the NexG brand",
+      "Converted an unstructured notebook process into a scoped 7-module system definition",
+      "Defined a mobile web/PWA target supporting one business, one stock location and up to five users",
+      "Set an explicit AI-governance stance that made the automation credible to a non-technical buyer"
+    ],
+    skills: [
+      "Commercial Proposal Writing",
+      "Solution Architecture",
+      "Permission & Audit Design",
+      "Ledger Domain Modelling",
+      "AI Feature Scoping",
+      "Milestone-Based Pricing",
+    ],
+  },
+  {
+    slug: "carryfast-logistics",
+    title: "Carryfast Logistics — IT Strategy Brief",
+    subtitle: "Executive Diagnostic & 60-Day In-House IT Roadmap",
+    category: "IT Diagnostic | Advisory",
+    industry: "Logistics & Supply Chain",
+    role: "In-House IT Lead & Systems Specialist",
+    challenge:
+      "A logistics enterprise was bleeding working capital to a 15–20 day paper POD invoicing cycle, running reefer temperature and GPS data on isolated vendor portals with no central view, and paying recurring agency retainers that never fixed ground-level warehouse and billing bottlenecks.",
+    approach: [
+      "Ran an executive IT friction audit and reduced it to three named gaps with quantified business impact",
+      "Designed a 60-day phased roadmap: WhatsApp POD capture (days 1–20), unified multi-vendor GPS and reefer telemetry dashboard (days 21–40), Tally Prime ledger sync plus external vendor contract audit (days 41–60)",
+      "Positioned the engagement around zero agency markup — an in-house technical guardian rather than a third-party licence seller",
+      "Offered a 14-day zero-risk trial audit of their dispatch and IT systems before any permanent commitment"
+    ],
+    outcomes: [
+      "Cut the POD-to-invoice cycle from 15–20 days to a 2-hour target via WhatsApp capture into draft Tally invoices",
+      "Consolidated siloed cold-chain and GPS telemetry into one dashboard with excursion alerts",
+      "Identified redundant agency retainers for elimination — ₹0/month added SaaS bloat",
+      "Produced a board-ready one-page strategy brief for the Director / MD"
+    ],
+    skills: [
+      "IT Discovery & Diagnostics",
+      "WhatsApp API Workflows",
+      "Tally Prime Integration",
+      "Cold Chain Telemetry",
+      "Executive Advisory",
+      "Roadmap Authoring",
     ],
   },
 ];

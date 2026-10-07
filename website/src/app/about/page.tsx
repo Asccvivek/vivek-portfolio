@@ -4,7 +4,7 @@ import { AboutPageContent } from "./AboutPageContent";
 export const metadata: Metadata = {
   title: "About — Vivek Debnath",
   description:
-    "Senior IT Project Manager specializing in multi-platform digital ecosystems, marketplace architecture, and AI-integrated workflows.",
+    "Technical Delivery Manager and Solutions Engineer specializing in scope-to-ship delivery, multi-platform digital ecosystems, and AI-integrated workflows.",
 };
 
 export default function AboutPage() {

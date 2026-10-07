@@ -7,16 +7,28 @@ import { ArrowDown, ArrowUpRight, Download, Phone } from "lucide-react";
 import { heroContent, siteConfig } from "@/lib/data";
 
 const ticker = [
+  "Technical Delivery Manager",
+  "Solutions Engineer",
   "Senior IT Project Manager",
-  "Software Project Manager",
-  "Technical Project Coordinator",
   "AI Operations",
   "Platform Delivery",
   "Bhopal, India",
 ];
 
+function splitHeadline(raw: string): { lead: string; tail: string } {
+  if (raw.includes("That")) {
+    const i = raw.indexOf("That");
+    return { lead: raw.slice(0, i), tail: raw.slice(i + 4) };
+  }
+  const segs = raw.split(". ");
+  if (segs.length > 1) {
+    return { lead: segs.slice(0, -1).join(". ") + ".", tail: segs[segs.length - 1] };
+  }
+  return { lead: raw, tail: "" };
+}
+
 export function Hero() {
-  const [lead, tail] = heroContent.headline.split("That");
+  const { lead, tail } = splitHeadline(heroContent.headline);
 
   return (
     <section className="relative overflow-hidden pt-16 md:pt-[72px]">
@@ -27,7 +39,7 @@ export function Hero() {
           <span className="label hidden sm:block">14+ Years · 13+ Platforms</span>
           <span className="flex items-center gap-2 label text-success">
             <span className="h-1.5 w-1.5 rounded-full bg-success" />
-            Available for senior PM roles
+            Available for technical delivery roles
           </span>
         </div>
 
@@ -41,10 +53,14 @@ export function Hero() {
               className="display text-[13vw] leading-[0.9] sm:text-[9vw] lg:text-[5.4rem] xl:text-[6.2rem]"
             >
               {lead}
-              That{" "}
-              <span className="font-serif font-normal italic tracking-[-0.02em] text-secondary">
-                {tail.trim()}
-              </span>
+              {tail && (
+                <>
+                  {" "}
+                  <span className="font-serif font-normal italic tracking-[-0.02em] text-secondary">
+                    {tail.trim()}
+                  </span>
+                </>
+              )}
             </motion.h1>
 
             <motion.p

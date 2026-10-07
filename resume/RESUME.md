@@ -1,6 +1,6 @@
 # VIVEK DEBNATH
 
-**SENIOR IT PROJECT MANAGER | SOFTWARE PROJECT MANAGER | TECHNICAL PROJECT COORDINATOR**
+**TECHNICAL DELIVERY MANAGER | SOLUTIONS ENGINEER | SENIOR IT PROJECT MANAGER**
 
 📍 Bhopal, Madhya Pradesh, India
 📧 vivekdvnath@gmail.com
@@ -12,7 +12,7 @@
 
 ## PROFESSIONAL SUMMARY
 
-Results-oriented Senior IT Project Manager and Software Project Manager with 7+ years of hands-on experience leading software delivery at Nex Gen Tech and 14+ years of total professional experience across project coordination, team leadership, client communication, and operations. Strong background in SDLC, Agile coordination, requirement gathering, QA/UAT, release planning, and cross-functional collaboration across web and mobile products.
+Technical Delivery Manager and Solutions Engineer with 14+ years of professional experience and 7+ years leading software delivery at NexG. I work the full path as one motion — scope the problem, write the commercial proposal and project charter, define the architecture, build my share of the modules, run QA/UAT, and hand over a live system. Delivered 13+ commercial platforms across restaurant POS/ERP, HRMS & payroll, healthcare, field-force CRM, on-demand marketplaces and AI products, plus independently scoped and shipped client engagements from a ₹1.5L commercial proposal to a 10-module Chrome extension. Strong across SDLC, Agile, requirement gathering, QA/UAT, release planning, stakeholder management and AI-assisted delivery tooling.
 
 ---
 
@@ -35,6 +35,16 @@ Results-oriented Senior IT Project Manager and Software Project Manager with 7+ 
 - User Acceptance Testing (UAT)
 - Bug Tracking & Triage
 - Release Planning & Deployment Coordination
+
+### Solution-to-Delivery
+- Scoping & Solution Design
+- Commercial Proposal & Pricing Authoring
+- Project Charter, Governance & Module Decomposition
+- Solution Architecture & Interface Contracts
+- IT Discovery & Diagnostic Audits
+- Phased Roadmap & Milestone Planning
+- Solution Selling & Deal Structuring
+- Client-Facing Stakeholder Management
 
 ### Tools & Technical Understanding
 - **Technical Coordination:** API Fundamentals, Database Fundamentals, Frontend/Backend Integration
@@ -72,6 +82,27 @@ Salonix — Project Coordinator
 Mapped booking, scheduling, and staff allocation workflows for a salon booking platform. Coordinated sprint planning, user feedback handling, and testing for appointment conflict resolution.
 
 Additional projects: Unity Greet Canvas Editor, 1 Tom Plumber, and Synergy Technologies — supported project coordination, requirement documentation, QA/UAT, stakeholder reviews, and release tracking across these product initiatives.
+
+---
+
+## CLIENT ENGAGEMENTS — SOLUTION TO DELIVERY
+
+**WAFID Automated Booking Extension** | Project Manager & Technical Contributor | Sep 2026
+- Owned the engagement end-to-end for an international client — requirements, commercial terms, milestone communication and delivery.
+- Authored the internal project charter: 10-module architecture, 5/5 build split, and JSON interface contracts enabling two engineers to build in parallel without blocking.
+- Built 5 of 10 Chrome Manifest V3 modules: extension/side-panel UI, candidate record store with JSON schema validation, clinic matching via Haversine proximity, a queue engine with cooldown/retry state machine, and an operational dashboard with CSV export.
+- Structured the commercial deal at $750 setup + $450/month maintenance with pre-agreed expansion scope.
+
+**TradePartner OS** | Solution Designer & Commercial Author | Aug 2026
+- Authored the complete commercial proposal: scope, phased delivery, pricing, milestone payment schedule and AI feature boundaries for a multi-partner trading business.
+- Designed 7 modules covering product catalogue, inventory movement, supplier purchases, partner-wise sales and running ledgers, expenses, partner withdrawals, and audit history.
+- Specified the per-partner permission model (partner-scoped visibility, admin full control, full audit trail) and defined the AI boundary — automated draft preparation with mandatory human confirmation, never auto-posting stock or money.
+- Proposed at ₹1,50,000 implementation + ₹22,000/month on an 18-month term, 6–8 week delivery, 50/30/20 milestone billing.
+
+**Carryfast Logistics — Executive IT Strategy Brief** | In-House IT Lead & Systems Specialist | Jul 2026
+- Ran an executive IT friction audit for the Director / MD and reduced it to three quantified gaps: 15–20 day paper POD invoicing cycle, siloed reefer/GPS telemetry, and recurring agency retainer bloat.
+- Designed a 60-day phased roadmap: WhatsApp POD capture (days 1–20), unified multi-vendor telemetry dashboard (days 21–40), Tally Prime ledger sync plus external vendor contract audit (days 41–60).
+- Delivered a board-ready one-page strategy brief with a 14-day zero-risk trial offer and a target of a 2-hour POD-to-invoice cycle at ₹0/month added SaaS cost.
 
 ---
 

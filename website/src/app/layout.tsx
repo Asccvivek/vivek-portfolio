@@ -22,32 +22,33 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vivek Debnath — Senior IT Project Manager",
+  title: "Vivek Debnath — Technical Delivery Manager",
   description:
-    "Results-oriented IT Project Manager with experience orchestrating 13+ digital platforms, AI-assisted workflows, and marketplace architectures. Specializing in operational excellence and scalable digital ecosystems.",
+    "Technical Delivery Manager and Solutions Engineer with 14+ years orchestrating 13+ digital platforms, AI-assisted delivery, and scope-to-ship execution. Specializing in solution design, commercial proposal authoring and production delivery.",
   keywords: [
+    "Technical Delivery Manager",
+    "Solutions Engineer",
     "IT Project Manager",
+    "Solution Delivery",
     "AI Operations",
-    "Project Coordinator",
+    "Project Coordination",
     "Marketplace Architecture",
     "Product Operations",
-    "Startup Operations",
-    "Technical Coordination",
     "Vivek Debnath",
   ],
   authors: [{ name: "Vivek Debnath" }],
   openGraph: {
-    title: "Vivek Debnath — Senior IT Project Manager",
+    title: "Vivek Debnath — Technical Delivery Manager",
     description:
-      "Building operational digital ecosystems with AI-first project management across 13+ platforms.",
+      "Shipping from scope to production with AI-assisted delivery across 13+ platforms.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vivek Debnath — Senior IT Project Manager",
+    title: "Vivek Debnath — Technical Delivery Manager",
     description:
-      "Building operational digital ecosystems with AI-first project management.",
+      "Shipping from scope to production with AI-assisted delivery.",
   },
   robots: { index: true, follow: true },
 };
