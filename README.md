@@ -1,7 +1,7 @@
 # VIVEK DEBNATH — EXECUTIVE PORTFOLIO & REPOSITORY MASTER INDEX
 
-**Senior IT Project Manager | Software Project Manager | Technical Project Coordinator**
-📍 Bhopal, India • 📧 vivekdvnath@gmail.com • 📞 +91 9394242828
+**Technical Delivery Manager | Solutions Engineer | Senior IT Project Manager**
+📍 Bhopal, India • 📧 vivekdvnath@gmail.com • 📞 +91 9394242828 • 💰 CTC ₹12 LPA • Expected ₹18 LPA
 💼 [LinkedIn Profile](https://www.linkedin.com/in/vivek-debnath-it) • 💻 [GitHub Profile](https://github.com/Asccvivek)
 
 ---

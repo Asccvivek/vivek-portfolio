@@ -11,7 +11,7 @@ IT Project Manager | AI-Driven Operations | 13+ Platform Ecosystems | Marketplac
 
 ### Option 2:
 ```
-Technical Project Coordinator → Building AI-Assisted Operational Systems | Marketplace Architecture | Product Operations
+Technical Delivery Manager → Solutions Engineer | SaaS POS/ERP & HRMS Delivery | AI-Assisted Operations
 ```
 
 ### Option 3:

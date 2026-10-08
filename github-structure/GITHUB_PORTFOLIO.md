@@ -36,7 +36,7 @@
 <div align="center">
 
 # Hey there, I'm Vivek Debnath 👋
-### **Senior IT Project Manager • Software Project Manager • Technical Project Coordinator**
+### **Technical Delivery Manager • Solutions Engineer • Senior IT Project Manager**
 *Bhopal, India • Transforming Complex Operational Workflows into Scalable Production Systems*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-debnath-it)

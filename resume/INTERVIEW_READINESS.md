@@ -1,6 +1,6 @@
 # IT Project Manager Interview Readiness & Skill Improvement Schedule
 
-A structured, daily and weekly execution roadmap designed to prepare for IT Project Manager, Technical Project Coordinator, and Product Operations roles.
+A structured, daily and weekly execution roadmap designed to prepare for Technical Delivery Manager, Solutions Engineer, and Product Operations roles.
 
 ---
 

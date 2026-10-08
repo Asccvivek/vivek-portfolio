@@ -7,6 +7,7 @@
 📞 +91 9394242828
 🔗 linkedin.com/in/vivek-debnath-it
 💻 github.com/Asccvivek
+💰 CTC ₹12 LPA • Expected ₹18 LPA
 
 ---
 
@@ -72,7 +73,7 @@ Planned multi-role workflows for customers, electricians, shop owners, and admin
 NexG HRMS — Project Manager
 Managed requirement gathering for payroll, attendance, recruitment, and employee directory workflows. Coordinated sprint schedules, bug triage, and release validation for the HRMS platform.
 
-NexG Homecare — Technical Project Coordinator
+NexG Homecare — Delivery Manager
 Supported delivery of a healthcare home-service platform by coordinating provider workflows, security requirements, stakeholder communication, QA/UAT, and deployment planning.
 
 Elite Works CRM — Project Manager
