@@ -1,7 +1,7 @@
 # VIVEK DEBNATH — EXECUTIVE PORTFOLIO & REPOSITORY MASTER INDEX
 
 **Technical Delivery Manager | Solutions Engineer | Senior IT Project Manager**
-📍 Bhopal, India • 📧 vivekdvnath@gmail.com • 📞 +91 9394242828 • 💰 CTC ₹12 LPA • Expected ₹18 LPA
+📍 Bhopal, India • 📧 vivekdvnath@gmail.com • 📞 +91 9394242828
 💼 [LinkedIn Profile](https://www.linkedin.com/in/vivek-debnath-it) • 💻 [GitHub Profile](https://github.com/Asccvivek)
 
 ---

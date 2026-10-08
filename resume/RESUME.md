@@ -7,7 +7,6 @@
 📞 +91 9394242828
 🔗 linkedin.com/in/vivek-debnath-it
 💻 github.com/Asccvivek
-💰 CTC ₹12 LPA • Expected ₹18 LPA
 
 ---
 

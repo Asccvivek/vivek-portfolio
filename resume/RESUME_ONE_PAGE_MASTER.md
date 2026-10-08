@@ -4,7 +4,6 @@
 
 📍 Bhopal, Madhya Pradesh, India • 📞 +91 9394242828 • ✉️ vivekdvnath@gmail.com
 linkedin.com/in/vivek-debnath-it • github.com/Asccvivek • Portfolio: github.com/asccvivek/vivek-portfolio
-💰 CTC ₹12 LPA • Expected ₹18 LPA
 
 ---
 
