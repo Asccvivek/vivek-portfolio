@@ -50,6 +50,6 @@ Senior IT Project Manager with **14+ years of total professional experience** (i
 
 ## Career Trajectory
 
-- **Senior IT Project Manager & Delivery Lead** | NexG (Feb 2019 – Jun 2026)
+- **Senior IT Project Manager & Delivery Lead** | NexG (Feb 2019 – Present)
 - **Placement Officer & Corporate Liaison** | Orion Edu Tech (Jan 2016 – Jan 2019)
 - **Operations Team Leader** | Firstsource (Feb 2012 – Nov 2015)

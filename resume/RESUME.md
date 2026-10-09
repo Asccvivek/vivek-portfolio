@@ -57,7 +57,7 @@ Technical Delivery Manager and Solutions Engineer with 14+ years of professional
 ## PROFESSIONAL EXPERIENCE
 
 ### Senior IT Project Manager
-NexG | Feb 2019 – Jun 2026 | Bhopal, India
+NexG | Feb 2019 – Present | Bhopal, India
 
 Led cross-functional software delivery across multiple digital products, coordinating requirement gathering, sprint planning, QA/UAT, release management, and stakeholder communication across hospitality, HR tech, healthcare, CRM, and service platforms.
 

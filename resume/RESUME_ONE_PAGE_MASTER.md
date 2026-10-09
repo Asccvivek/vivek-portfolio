@@ -9,7 +9,7 @@ linkedin.com/in/vivek-debnath-it • github.com/Asccvivek • Portfolio: github.
 
 ## SUMMARY
 
-Senior IT Project Manager with **7+ years running software delivery at Nex Gen Tech (Feb 2019 – Jun 2026)** across **13+ shipped platforms**, and **14+ years total** professional experience. Owns the full path from client requirement → PRD → sprint planning → QA/UAT → production release for multi-tenant SaaS, POS/ERP, on-demand marketplaces, HRMS and AI products. Hands-on enough to read the code, write the spec, test the API in Postman and unblock the engineer. Comfortable with **immediate joining and US/night shift**.
+Senior IT Project Manager with **7+ years running software delivery at Nex Gen Tech (Feb 2019 – Present)** across **13+ shipped platforms**, and **14+ years total** professional experience. Owns the full path from client requirement → PRD → sprint planning → QA/UAT → production release for multi-tenant SaaS, POS/ERP, on-demand marketplaces, HRMS and AI products. Hands-on enough to read the code, write the spec, test the API in Postman and unblock the engineer. Comfortable with **immediate joining and US/night shift**.
 
 ---
 
@@ -29,7 +29,7 @@ Senior IT Project Manager with **7+ years running software delivery at Nex Gen T
 ## PROFESSIONAL EXPERIENCE
 
 ### Senior IT Project Manager & Delivery Lead
-**Nex Gen Tech (NexG)** — Bhopal, India • Feb 2019 – Jun 2026
+**Nex Gen Tech (NexG)** — Bhopal, India • Feb 2019 – Present
 
 Led end-to-end delivery governance for **13+ commercial web, mobile and SaaS platforms** from concept to production, coordinating distributed engineering, QA and design teams against fixed client milestones.
 

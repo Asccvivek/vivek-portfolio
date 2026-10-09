@@ -111,9 +111,12 @@ export function Hero() {
               transition={{ delay: 0.55, duration: 0.6 }}
               className="mt-12 border-t border-line pt-5"
             >
-              <p className="label">Previously</p>
+              <p className="label">Currently</p>
               <ul className="mt-3 flex flex-wrap gap-x-6 gap-y-2 font-mono text-[11px] uppercase tracking-label text-text-secondary">
-                <li className="text-ink">NexG · 2019—26</li>
+                <li className="text-ink">NexG · 2019—Present</li>
+              </ul>
+              <p className="label mt-5">Previously</p>
+              <ul className="mt-3 flex flex-wrap gap-x-6 gap-y-2 font-mono text-[11px] uppercase tracking-label text-text-secondary">
                 <li>Orion Edu Tech · 2016—19</li>
                 <li>Firstsource · 2015</li>
                 <li>HGS · 2012—15</li>

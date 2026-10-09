@@ -172,7 +172,7 @@ export const experience = [
     role: "Senior IT Project Manager",
     company: "Nex Gen Tech (NexG)",
     location: "Bhopal, India",
-    period: "Feb 2019 — Jun 2026",
+    period: "Feb 2019 — Present",
     achievements: [
       "Led end-to-end delivery of 13+ commercial web, mobile and SaaS platforms — requirement gathering, PRD, sprint planning, QA/UAT and production release — for distributed engineering, QA and design teams.",
       "eRestro multi-tenant restaurant ERP/POS: drove QR ordering, multi-station KDS, POS billing and recipe-level inventory auto-deduction across 18 concurrent live floor tables.",
